@@ -1,0 +1,4 @@
+Web development framework: Next.js
+CSS framework: Tailwind CSS
+Deployment (hosting): Firebase
+Assets (free for commerical and personal use): https://3dicons.co/
