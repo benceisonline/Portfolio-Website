@@ -126,6 +126,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">JavaScript - NodeJS, Express, HTML, CSS</p>
               <p className="text-gray-800 py-1">NextJS - React, Tailwind CSS</p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
+              <p className="text-gray-800 py-1">Python - Spyder</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">MongoDB</p>
               <p className="text-gray-800 py-1">Firebase</p>
