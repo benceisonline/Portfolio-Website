@@ -333,12 +333,13 @@ export default function Home() {
         <section id="work">
           <div>
             <h3 className="text-3xl py-10">Work Experience</h3>
-            <h2 className="text-2xl py-4">Owner and Social Media Manager of an online entertainment company (2018 - 2020)</h2>
+            <h2 className="text-2xl py-4">Owner and Social Media Manager of an online entertainment page (2018 - 2020)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In collaboration with some friends, I spent 2 years running the social media accounts (Facebook and Instagram) of an online entertainment company.
+              In collaboration with some friends, I spent 2 years running the social media accounts (Facebook and Instagram) of an online entertainment page. 
               During my time, I gained experience in producing engagement analytics and conducting small-scale advertisement campaigns.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
+              The accounts featured humorous reflection on popular culture, memes, and at times curated content created by the audience.
               Keeping up with popular culture, the account handles were changed numerous times, but still managed to gather
               a rather large following amongst younger users. Shortly after surpassing 100.000 Followers and 10M+ monthly engagement in 2020,
               the site was sold and rebranded.
