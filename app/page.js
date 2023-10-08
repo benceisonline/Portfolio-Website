@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 
                           hover:scale-105 drop-shadow-lg transition-transform duration-500">
-            <Image src={myface} alt="My Face" layout="fill" objectFit="cover"/>
+            <Image src={myface} alt="My Face" className="object-cover w-full h-full"/>
           </div>
         </section>
         
@@ -169,10 +169,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p4} alt="P4 Image 1" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p4} alt="P4 Image 1" className="rounded-lg object-cover w-full h-auto"  />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p4_2} alt="P4 Image 2" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p4_2} alt="P4 Image 2" className="rounded-lg object-cover w-full h-auto" />
             </div>
           </div>
           <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
@@ -212,10 +212,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p3} alt="P3 Image 1" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p3} alt="P3 Image 1" className="rounded-lg object-cover w-full h-auto"/>
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p3_2} alt="P3 Image 2" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p3_2} alt="P3 Image 2" className="rounded-lg object-cover w-full h-auto"/>
             </div>
           </div>
           <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
@@ -254,10 +254,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p2} alt="P2 Image 1" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p2} alt="P2 Image 1" className="rounded-lg object-cover w-full h-auto"/>
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p2_2} alt="P2 Image 2" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p2_2} alt="P2 Image 2" className="rounded-lg object-cover w-full h-auto"/>
             </div>
           </div>
           <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
@@ -298,10 +298,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p1} alt="P1 Image 1" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p1} alt="P1 Image 1" className="rounded-lg object-cover w-full h-auto"/>
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={p1_2} alt="P1 Image 2" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={p1_2} alt="P1 Image 2" className="rounded-lg object-cover w-full h-auto"/>
             </div>
           </div>
           <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
@@ -345,10 +345,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={some1} alt="SoMe Image 1" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={some1} alt="SoMe Image 1" className="rounded-lg object-cover w-full h-auto"/>
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image src={some2} alt="SoMe Image 2" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <Image src={some2} alt="SoMe Image 2" className="rounded-lg object-cover w-full h-auto"/>
             </div>
           </div>
 
