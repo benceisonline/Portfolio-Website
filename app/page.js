@@ -117,19 +117,17 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Coding & QA</h3>
               <p className="py-2">
                 I have a full-stack background with experience in both front-end and back-end development.
-                I learned the fundamentals of imperative programming through C, and object-oriented programming 
-                through Java. I have also gained experience in web development creating dynamic and fully responsive
+                I learned the fundamentals of imperative programming through C, object-oriented programming 
+                using Java, and machine learning with Python. I have also gained experience in web development creating dynamic and fully responsive
                 websites communicating with databases. I have worked in a Test-Driven Development setting, and
                 I have experience in both unit and integration testing.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
-              <p className="text-gray-800 py-1">JavaScript - NodeJS, Express, HTML, CSS</p>
-              <p className="text-gray-800 py-1">NextJS - React, Tailwind CSS</p>
+              <p className="text-gray-800 py-1">JavaScript - Node.js, Next.js, React, React Native, Express, HTML, Tailwind, CSS</p>
+              <p className="text-gray-800 py-1">MongoDB, Firebase and SQL</p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
               <p className="text-gray-800 py-1">Python - Spyder</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">Firebase</p>
               <p className="text-gray-800 py-1">R</p>
             </div>
 
