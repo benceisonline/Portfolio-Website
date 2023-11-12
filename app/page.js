@@ -97,16 +97,14 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Project Management</h3>
               <p className="py-2">
                 Throughout numerous semester-long projects, I have been responsible for being a project leader of 5+ people.
-                As a result of the projects, I have gained experience in agile development and the general software development life cycle.
-                Effective planning and communication with the team and client
-                were essential to the success of the projects.
+                As a result, I have gained experience in agile development and the general software development life cycle.
+                Effective planning and communication with the team and client were essential to the success of the projects.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
+              <p className="text-gray-800 py-1">Agile Development & Scrum Framework</p>
               <p className="text-gray-800 py-1">Git - Version Control & CI/CD</p>
-              <p className="text-gray-800 py-1">Agile Development & Scrum</p>
               <p className="text-gray-800 py-1">Google Workspace</p>
               <p className="text-gray-800 py-1">Azure Boards</p>
-              <p className="text-gray-800 py-1">Office 365</p>
               <p className="text-gray-800 py-1">Trello</p>
             </div>
 
@@ -116,17 +114,15 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Coding & QA</h3>
               <p className="py-2">
-                I have a full-stack background with experience in both front-end and back-end development.
-                I learned the fundamentals of imperative programming through C, object-oriented programming 
-                using Java, and machine learning with Python. I have also gained experience in web development creating dynamic and fully responsive
-                websites communicating with databases. I have worked in a Test-Driven Development setting, and
-                I have experience in both unit and integration testing.
+                Possessing a full-stack programming background, I acquired imperative programming skills through C, delved into object-oriented programming using Java, 
+                and explored machine learning with Python. I have also gained experience in web development creating dynamic and fully responsive websites communicating with databases. 
+                I have worked in a Test-Driven Development setting, and have experience in both unit and integration testing.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
-              <p className="text-gray-800 py-1">JavaScript - Node.js, Next.js, React, React Native, Express, HTML, Tailwind, CSS</p>
-              <p className="text-gray-800 py-1">MongoDB, Firebase and SQL</p>
+              <p className="text-gray-800 py-1">JavaScript/TypeScript - Node.js, Next.js, React, React Native, Express, HTML, Tailwind, CSS</p>
+              <p className="text-gray-800 py-1">MongoDB, Firebase, SQL, Google Cloud Services</p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
-              <p className="text-gray-800 py-1">Python - Spyder</p>
+              <p className="text-gray-800 py-1">Python - Keras, Spyder</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">R</p>
             </div>
@@ -138,9 +134,8 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Design & Theory</h3>
               <p className="py-2">
                 Building larger systems, I have learned the importance of software architecture and design patterns.
-                Working with clients, user experience and user interface design were also essential to understand and
-                realize in wireframes, mock-ups, and prototypes. Working on a compiler, the importance of program complexity,
-                algorithms, and data structures became apparent.
+                Working with clients, user experience and user interface design were also essential to understand and realize in wireframes, mock-ups, and prototypes. 
+                While developing a compiler, I recognized the critical role of program complexity, algorithms, and data structures.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
               <p className="text-gray-800 py-1">Balsamiq Wireframes</p>
@@ -156,6 +151,21 @@ export default function Home() {
         <section id="projects">
           <div>
             <h3 className="text-3xl py-10">Team-Based Projects</h3>
+            <div>
+            <h2 className="text-2xl py-4">Educado Project: a large-scale educational mobile platform, that got the attention of the UN (2023 - Ongoing)</h2>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              The educado project is a partnership initiative of Aalborg University and the University of Brasília. The project aims to develop a mobile platform that provides
+              a socially-gamified educational experience for waste pickers in Brazil. The project is in consideration to be funded by the United Nations Development Programme (UNDP).
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              This project was conducted following the Nexus Framework (Scaled Scrum), so I have gained practical experience working in an agile work environment.
+              My work on this project was, primarily, to develop the front end of the mobile application using React Native. 
+              For educational purposes, I had to familiarise myself with all aspects of the product, working as a full stack developer.
+            </p>
+            <p className = "text-md py-2 leading-8 text-gray-800 font-style: italic">Screenshots, documentation, and repository links coming soon.</p>
+            <p className = "text-md pb-2 leading-8 text-gray-800">\ (•◡•) /</p>
+            
+          </div>
             <h2 className="text-2xl py-4">Modern Programming for Old Hardware (2023)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
               In this project, we were tasked with developing a compiler for our own programming language. The end result of this project is a modern
@@ -331,9 +341,9 @@ export default function Home() {
         <section id="work">
           <div>
             <h3 className="text-3xl py-10">Work Experience</h3>
-            <h2 className="text-2xl py-4">Owner and Social Media Manager of an online entertainment page (2018 - 2020)</h2>
+            <h2 className="text-2xl py-4">Social Media Manager of an independent online entertainment page (2018 - 2020)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In collaboration with some friends, I spent 2 years running the social media accounts (Facebook and Instagram) of an online entertainment page. 
+              In collaboration with some friends, I spent 2 years running the social media accounts (Facebook and Instagram) of an independent online entertainment page. 
               During my time, I gained experience in producing engagement analytics and conducting small-scale advertisement campaigns.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
