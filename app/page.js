@@ -149,7 +149,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-10">Team-Based Projects</h3>
             <div>
-              <h2 className="text-2xl py-4">Educado Project: a large-scale educational mobile platform acknowledged by the UN (2023)</h2>
+              <h2 className="text-2xl py-4">Educado Project: a large-scale educational mobile platform that got the attention of the UN (2023)</h2>
               <p className="text-md py-2 leading-8 text-gray-800">
                 The Educado project is a partnership initiative of Aalborg University and the University of Brasília, supported by Erasmus. The project aims to develop a mobile platform that provides
                 a socially-gamified educational experience for waste pickers in Brazil. The project is in consideration to be funded by the United Nations Development Programme (UNDP).
