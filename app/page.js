@@ -1,4 +1,3 @@
-import Head from "next/head"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 import Image from "next/image"
 import myface from "../public/myface.png"
@@ -21,10 +20,6 @@ import some2 from "../public/some2Watermarked.png"
 export default function Home() {
   return (
     <div>
-      <Head>
-        <link rel="icon" href="icon.ico" />
-      </Head>
-
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-10 flex flex-col sm:flex-row sm:justify-between">
@@ -86,7 +81,7 @@ export default function Home() {
               During my studies, I have gained a wide range of technical and soft skills.
               In addition to the courses, each semester proposed a new challenge in the form of a comprehensive project requiring us to
               <span className="text-teal-600"> apply the technical knowledge in practice </span>to solve real-world problems.
-              These projects were team-based and other than the technical skills,
+              These projects were team-based and other than developing quality code,
               they also required us to
               <span className="text-teal-600"> improve soft skills such as communication and teamwork</span>.
             </p>
@@ -99,7 +94,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Project Management</h3>
               <p className="py-2">
                 Throughout numerous semester-long projects, I have been responsible for being a project leader of 5+ people.
-                As a result, I have gained experience in agile development and the general software development life cycle.
+                As a result, I have gained experience in Agile development and a thorough understanding of the software development life cycle.
                 Effective planning and communication with the team and client were essential to the success of the projects.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
@@ -118,13 +113,13 @@ export default function Home() {
               <p className="py-2">
                 Possessing a full-stack programming background, I acquired imperative programming skills through C, delved into object-oriented programming using Java,
                 and explored machine learning with Python. I have also gained experience in web development creating dynamic and fully responsive websites communicating with databases.
-                I have worked in a Test-Driven Development setting, and have experience in both unit and integration testing.
+                I have worked in a Test-Driven Development setting, and have implemented unit, integration, and end-to-end testing in large projects.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
               <p className="text-gray-800 py-1">JavaScript/TypeScript - Node.js, Next.js, React, React Native, Express, HTML, Tailwind, CSS</p>
               <p className="text-gray-800 py-1">MongoDB, Firebase, SQL, Google Cloud Services</p>
+              <p className="text-gray-800 py-1">Python - Keras, Tensorflow, Spyder</p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
-              <p className="text-gray-800 py-1">Python - Keras, Spyder</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">R</p>
             </div>
@@ -136,7 +131,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Design & Theory</h3>
               <p className="py-2">
                 Building larger systems, I have learned the importance of software architecture and design patterns.
-                Working with clients, user experience and user interface design were also essential to understand and realize in wireframes, mock-ups, and prototypes.
+                Collaborating with clients, it was crucial to comprehend and translate user experience and interface design requirements into tangible media such as wireframes, mock-ups, and prototypes.
                 While developing a compiler, I recognized the critical role of program complexity, algorithms, and data structures.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
@@ -154,15 +149,15 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-10">Team-Based Projects</h3>
             <div>
-              <h2 className="text-2xl py-4">Educado Project: a large-scale educational mobile platform, that got the attention of the UN (2023)</h2>
+              <h2 className="text-2xl py-4">Educado Project: a large-scale educational mobile platform acknowledged by the UN (2023)</h2>
               <p className="text-md py-2 leading-8 text-gray-800">
-                The educado project is a partnership initiative of Aalborg University and the University of Brasília. The project aims to develop a mobile platform that provides
+                The Educado project is a partnership initiative of Aalborg University and the University of Brasília, supported by Erasmus. The project aims to develop a mobile platform that provides
                 a socially-gamified educational experience for waste pickers in Brazil. The project is in consideration to be funded by the United Nations Development Programme (UNDP).
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
-                This project was conducted following the Nexus Framework (Scaled Scrum), so I have gained practical experience working in an Agile work environment.
-                My work on this project was, primarily, to develop the front end of the mobile application using React Native, and to create a highly automised CI/CD pipeline.
-                For educational purposes, I had to familiarise myself with all aspects of the product, working as a full stack developer.
+                The project&apos;s workflow followed the Nexus Framework (Scaled Scrum), so I have gained practical experience working in an Agile environment.
+                My primary responsibility was to develop the front end of the mobile application using React Native and to create a highly automated CI/CD pipeline.
+                For educational purposes, I had to familiarise myself with all aspects of the product, essentially working as a full-stack developer.
               </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -197,9 +192,9 @@ export default function Home() {
             </div>
             <h2 className="text-2xl py-4">Modern Programming for Old Hardware (2023)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In this project, we were tasked with developing a compiler for our own programming language. The end result of this project is a modern
-              general purpose imperative programming language that can be compiled to Assembly 6502 using our own self-written compiler. The implementation language
-              is Java.
+              In this project, we were tasked with developing a compiler for our own programming language. The result of this project is a modern
+              general-purpose imperative programming language that can be compiled to Assembly 6502 (the language SNES and Furby used!) using our self-written compiler.
+              The implementation language is Java.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
               The language incorporates most of the features of modern programming languages such as variables, procedures, loops, and conditionals. The compiler
@@ -240,13 +235,12 @@ export default function Home() {
           <div>
             <h2 className="text-2xl py-4">Task Management Software Solution for The Living Room (2022)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              The purpose of this project was to develop a software solution for The Living Room, a local café in Copenhagen. The purpose of the desktop application
-              is to provide a platform for the café to manage their tasks and employees. The application is built using JavaFX and it relies upon communicating with a MongoDB database.
+              This project aimed to create a software solution for The Living Room, a local café in Copenhagen. The purpose of the desktop application
+              is to provide a platform for the café to manage their tasks and employees. The application is primarily written in Java and relies on a MongoDB database.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
               The focal points of this project were to develop a user-friendly and intuitive user interface and well-structured application in cooperation with a client.
-              The application includes features such as task management, employee management, and a calendar. The application provides both employees and managers with
-              real-time data, and a platform to communicate with each other.
+              The application offers a work schedule, task management, employee management, and a communication platform. The application provides real-time data for both employees and managers.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -283,12 +277,12 @@ export default function Home() {
           <div>
             <h2 className="text-2xl py-4">Personal Budget and Expense Tracker (2022)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In this project, a full-stack web application was developed to track personal expenses and budget. The main demography of this budgeting app is students,
-              and other than providing usual tools such as expense planning and tracking, it also encourages the users to set goals and incorporate them into their budget.
+              During this project, we created a comprehensive full-stack web application designed for monitoring individual expenses and managing budgets. The main demographic of this budgeting app is students,
+              and other than providing tools for expense planning and tracking, the application also encourages users to set goals and incorporate them into their budgets.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-              The application was built using the model-view-controller architectural pattern. It focuses on the potential scalability of the product, and the separation of concerns.
-              The website uses the Express Node.js framework for back-end. The database is a MongoDB database hosted on MongoDB Atlas.
+              The application was built using the Model-View-Controller architectural pattern, focusing on the potential scalability of the product and the separation of concerns.
+              The back-end of the website uses the Express Node.js web application framework, and the MongoDB database is hosted on MongoDB Atlas.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -325,14 +319,14 @@ export default function Home() {
           <div>
             <h2 className="text-2xl py-4">Streamlining a Recruitment Process (2021)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Being the first university project, some of the major takeaways were learning to work in a team, and learning to work with a real-life issue.
-              Having conducted interviews with people from the HR-departments of Novo Nordisk, DSB, and Jyske Bank, the group learned to identify the needs of the client,
-              and provide a suitable prototype to solve the issue.
+              As the inaugural university project, key insights included gaining experience in team collaboration and tackling real-world challenges.
+              Having conducted interviews with people from the HR departments of Novo Nordisk, DSB, and Jyske Bank, the group learned to identify a client&apos;s requirements
+              and provide a suitable prototype to solve an issue.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-              The prototype is a command-line application built entirely in C, and should act as a proof of concept. Taking text files and a list of keywords with weights as input,
-              the program can read through and rank the applications based on the score. Furthermore, it extracts the relevant information from the applications, such as contact information
-              and most relevant sentences.
+              The prototype is a command-line application built entirely in C and should act as a proof of concept. Processing text files and a list of keywords with weights as input,
+              the program can read through, rate and rank job applications. Furthermore, the program extracts relevant snippets from the text files, such as contact information
+              and potentially significant sentences.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -372,13 +366,13 @@ export default function Home() {
             <h3 className="text-3xl py-10">Work Experience</h3>
             <h2 className="text-2xl py-4">Social Media Manager of an independent online entertainment page (2018 - 2020)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In collaboration with some friends, I spent 2 years running the social media accounts (Facebook and Instagram) of an independent online entertainment page.
+              In collaboration with some friends, I spent two years running social media accounts (Facebook and Instagram) for an independent online entertainment page.
               During my time, I gained experience in producing engagement analytics and conducting small-scale advertisement campaigns.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-              The accounts featured humorous reflection on popular culture, memes, and at times curated content created by the audience.
-              Keeping up with popular culture, the account handles were changed numerous times, but still managed to gather
-              a rather large following amongst younger users. Shortly after surpassing 100.000 Followers and 10M+ monthly engagement in 2020,
+              The accounts featured humorous reflections on popular culture, consisting of a mix of original and curated content.
+              Following popular culture, the account handles were changed numerous times but still managed to garner
+              a large following amongst younger users. Shortly after surpassing 100.000 Followers and 10M+ monthly engagements in 2020,
               the site was sold and rebranded.
             </p>
           </div>
@@ -394,7 +388,7 @@ export default function Home() {
           <div>
             <h2 className="text-2xl py-4">Service Worker at Rema 1000 (2016 - 2018)</h2>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Similarly to many other danish teenagers, I spent my high school years working at a local grocery store.
+              Similarly to many other Danish teenagers, I spent my high school years working at a local grocery store.
               Here, I gained experience in customer service, and I learned to participate in creating a healthy work environment.
             </p>
           </div>
