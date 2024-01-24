@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-10 flex flex-col sm:flex-row sm:justify-between">
+          <nav className="py-10 mb-5 flex flex-col sm:flex-row sm:justify-between">
             <div className="flex flex-col sm:flex-row items-center">
               <a
                 href="#skills"
@@ -397,6 +397,8 @@ export default function Home() {
             Contact: <span className="text-teal-600"> benceisonline@gmail.com</span>
           </div>
         </section>
+
+        <a href="#top" className="fixed bottom-6 right-6 bg-black bg-opacity-50 text-white py-2 px-4 rounded-md hover:bg-opacity-70 transition-colors duration-500">↑</a>
       </main>
     </div>
   )
