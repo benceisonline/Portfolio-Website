@@ -1,4 +1,5 @@
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import Head from 'next/head';
 import Image from "next/image"
 import myface from "../public/myface.png"
 import explorer from "../public/explorer-dynamic-colorx.png"
@@ -20,6 +21,16 @@ import some2 from "../public/some2Watermarked.png"
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Bence Szabo - Software Engineering Student</title>
+        <meta name="description" content="Bence Szabo - Software Engineering student with skills in project management, coding, QA, design, and theory. Explore team-based projects and work experience." />
+        <meta name="keywords" content="Bence Szabo, Software Engineering, Project Management, Coding, QA, Design, Theory, React, Next.js, JavaScript, TypeScript, Java, MongoDB, Firebase" />
+        <meta name="author" content="Bence Szabo" />
+        <meta property="og:title" content="Bence Szabo - Software Engineering Student" />
+        <meta property="og:description" content="Explore the skills, team-based projects, and work experience of Bence Szabo, a Software Engineering student." />
+        <meta property="og:url" content="https://bence-is-online.web.app/" />
+      </Head>
+      
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-5 flex flex-col sm:flex-row sm:justify-between">
