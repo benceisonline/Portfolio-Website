@@ -129,7 +129,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
               <p className="text-gray-800 py-1">JavaScript/TypeScript - Node.js, Next.js, React, React Native, Express, HTML, Tailwind, CSS</p>
               <p className="text-gray-800 py-1">MongoDB, Firebase, SQL, Google Cloud Services</p>
-              <p className="text-gray-800 py-1">Python - Keras, Tensorflow, Spyder</p>
+              <p className="text-gray-800 py-1">Python - PyTorch, Tensorflow, Spyder</p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">R</p>
