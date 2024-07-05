@@ -98,7 +98,7 @@ export default function Home() {
                   <span className="text-teal-600">
                     {" "}
                     developing software that is thoroughly prepared, tested and
-                    ready for use{" "}
+                    ready for use
                   </span>
                   .
                 </p>
@@ -111,7 +111,7 @@ export default function Home() {
                 <p className="text-md leading-8 text-gray-800 md:text-xl">
                   I completed my BSc in Civil Engineering Software at Aalborg
                   University Copenhagen, an education with a focus on the
-                  problem-based learning model and{" "}
+                  problem-based learning model and
                   <span className="text-teal-600">
                     {" "}
                     real-world problem-solving
