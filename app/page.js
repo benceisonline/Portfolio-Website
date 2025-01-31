@@ -4,6 +4,8 @@ import myface from "../public/myface.png";
 import explorer from "../public/explorer-dynamic-colorx.png";
 import hash from "../public/hash-dynamic-color.png";
 import bulb from "../public/bulb-dynamic-color.png";
+import p7_2 from "../public/P7_2.png";
+import p7 from "../public/P7.png";
 import p6 from "../public/P6.png";
 import p6_2 from "../public/P6_2.png";
 import p5 from "../public/P5.png";
@@ -20,21 +22,33 @@ import some1 from "../public/some1Watermarked.png";
 import some2 from "../public/some2Watermarked.png";
 
 export const metadata = {
-  title: 'Bence Szabo - Software Engineering Student',
-  description: 'Bence Szabo - Software Engineering student with skills in project management, coding, QA, design, and theory. Explore team-based projects and work experience.',
+  title: "Bence Szabo - Software Engineering Student",
+  description:
+    "Bence Szabo - Software Engineering student with skills in project management, coding, QA, design, and theory. Explore team-based projects and work experience.",
   keywords: [
-    'Bence Szabo', 'Software Engineering', 'Project Management', 'Coding', 
-    'QA', 'Design', 'Theory', 'React', 'Next.js', 'JavaScript', 
-    'TypeScript', 'Java', 'MongoDB', 'Firebase'
+    "Bence Szabo",
+    "Software Engineering",
+    "Project Management",
+    "Coding",
+    "QA",
+    "Design",
+    "Theory",
+    "React",
+    "Next.js",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "MongoDB",
+    "Firebase",
   ],
-  authors: [{ name: 'Bence Szabo' }],
+  authors: [{ name: "Bence Szabo" }],
   openGraph: {
-    title: 'Bence Szabo - Software Engineering Student',
-    description: 'Explore the skills, team-based projects, and work experience of Bence Szabo, a Software Engineering student.',
-    url: 'https://bence-is-online.web.app/',
+    title: "Bence Szabo - Software Engineering Student",
+    description:
+      "Explore the skills, team-based projects, and work experience of Bence Szabo, a Software Engineering student.",
+    url: "https://bence-is-online.web.app/",
   },
 };
-
 
 export default function Home() {
   return (
@@ -43,6 +57,12 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-5 flex flex-col sm:flex-row sm:justify-between border-b-2 border-gray-300">
             <div className="flex flex-col sm:flex-row items-center">
+              <a
+                href="#work"
+                className="text-gray-800 font-semibold px-4 py-2 rounded-md mb-4 sm:mb-0 mr-0 sm:mr-4 hover:text-teal-600 transition-colors duration-500 whitespace-nowrap"
+              >
+                Work Experience
+              </a>
               <a
                 href="#skills"
                 className="text-gray-800 font-semibold px-4 py-2 rounded-md mb-4 sm:mb-0 mr-0 sm:mr-4 hover:text-teal-600 transition-colors duration-500 whitespace-nowrap"
@@ -54,12 +74,6 @@ export default function Home() {
                 className="text-gray-800 font-semibold px-4 py-2 rounded-md mb-4 sm:mb-0 mr-0 sm:mr-4 hover:text-teal-600 transition-colors duration-500 whitespace-nowrap"
               >
                 Team-Based Projects
-              </a>
-              <a
-                href="#work"
-                className="text-gray-800 font-semibold px-4 py-2 rounded-md mb-4 sm:mb-0 mr-0 sm:mr-4 hover:text-teal-600 transition-colors duration-500 whitespace-nowrap"
-              >
-                Work Experience
               </a>
             </div>
             <ul className="flex items-center justify-center sm:justify-start hover:scale-105 drop-shadow-lg transition-transform duration-500 py-2">
@@ -144,6 +158,104 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="work">
+          <div>
+            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
+            <h3 className="text-3xl py-5 font-semibold">Work Experience 👨‍💻</h3>
+
+            <div>
+              <h2 className="text-2xl py-4">
+                Quality Assurance Student Worker at Playdead (2024 – )
+              </h2>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                I am currently a QA Student Worker at Playdead, the
+                internationally renowned video game studio known for its
+                atmospheric and artistic games, <em>Limbo</em> and{" "}
+                <em>Inside</em>.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                My role involves planning and conducting technical and user
+                tests, documenting issues and bugs, and enhancing the QA
+                team`&apos;`s toolbox with new software solutions. I work in a
+                highly dynamic environment where effective communication and a
+                deep understanding of each colleague`&apos;`s area of expertise
+                are essential. My work primarily involves Perforce, Unreal
+                Engine, and C++ programming.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl py-4">
+                Teaching Assistant & UN Egalitarian Project Supervisor at
+                Aalborg University / United Nations (2024 – 2025)
+              </h2>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                I assisted in the Educado Project under the UN`&apos;`s
+                Egalitarian Initiative (co-funded by the European Untion),
+                coordinating effective communication and software development
+                efforts between Aalborg University, Saxion University,
+                University of Minho, and University of Brasília.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Focusing on the teaching assistant side, I provided day-to-day
+                technical support and Agile guidance to assist AAU students in
+                their software development efforts. During this time, I worked
+                with Google Cloud services, Docker microservices React web
+                development, database management, and CI/CD optimisation and
+                automation.
+              </p>
+            </div>
+
+            <h2 className="text-2xl py-4">
+              Social Media Manager of an independent online entertainment page
+              (2018 - 2020)
+            </h2>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              In collaboration with some friends, I spent two years running
+              social media accounts (Facebook and Instagram) for an independent
+              online entertainment page. During my time, I gained experience in
+              producing engagement analytics and conducting small-scale
+              advertisement campaigns.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              The accounts featured humorous reflections on popular culture,
+              consisting of a mix of original and curated content. Following
+              popular culture, the account handles were changed numerous times
+              but still managed to garner a large following amongst younger
+              users. Shortly after surpassing 100.000 Followers and 10M+ monthly
+              engagements in 2020, the site was sold and rebranded.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+              <Image
+                src={some1}
+                alt="SoMe Image 1"
+                className="rounded-lg object-cover w-full h-auto"
+              />
+            </div>
+            <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+              <Image
+                src={some2}
+                alt="SoMe Image 2"
+                className="rounded-lg object-cover w-full h-auto"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl py-4">
+              Service Worker at Rema 1000 (2016 - 2018)
+            </h2>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Similarly to many other Danish teenagers, I spent my high school
+              years working at a local grocery store. Here, I gained experience
+              in customer service, and I learned to participate in creating a
+              healthy work environment.
+            </p>
+          </div>
+        </section>
+
         <section id="skills">
           <div>
             <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
@@ -189,7 +301,7 @@ export default function Home() {
                 Agile Development & Scrum Framework
               </p>
               <p className="text-gray-800 py-1">
-                Git - Version Control & CI/CD
+                Git, Perforce - Version Control & CI/CD
               </p>
               <p className="text-gray-800 py-1">Google Workspace</p>
               <p className="text-gray-800 py-1">Azure Boards</p>
@@ -219,12 +331,14 @@ export default function Home() {
                 Express, HTML, Tailwind, CSS
               </p>
               <p className="text-gray-800 py-1">
-                SQL, Google Cloud Services, MongoDB, Firebase, Supabase
+                SQL, Google Cloud Services, Docker, Kubernetes MongoDB,
+                Firebase, Supabase
               </p>
               <p className="text-gray-800 py-1">
                 Python - Pandas, Keras, PyTorch, Tensorflow
               </p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
+              <p className="text-gray-800 py-1">C++ - Unreal</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">R</p>
             </div>
@@ -261,16 +375,83 @@ export default function Home() {
             <h3 className="text-3xl py-5 font-semibold">
               Team-Based Projects 🚀
             </h3>
+
+            <div>
+              <h2 className="text-2xl py-4">
+                Madboks: A scalable booking and event management web-platform for a non-profit organization
+              </h2>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                As the first master&apos;s project, this web-application is a
+                culmination of web-development knowledge gathered throghout my
+                experience with sustainable software design and coding. The main
+                challanges included implementing a Cloudflare firewall, writing
+                a reliable email service, ensuring secure authorization and
+                session management, and creating a fully responsive frontend
+                that works on any realistic screensize.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Using scalable microservice architecture, the booking and event
+                management website is designed to perform well under heavy
+                loads, while providing a user-friendly user experience for both
+                system admins and customers, developed in close collaboration
+                with the organization and its users.
+              </p>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={p7}
+                  alt="P7 Image 1"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={p7_2}
+                  alt="P7 Image 2"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+            </div>
+            <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
+              <div className="flex items-center text-gray-800 font-semibold mb-4 sm:mb-0 hover:text-teal-600 transition-colors duration-500">
+                <AiFillGithub
+                  className=""
+                  size={30}
+                  href="https://github.com/AAU-madboks-collab"
+                  target="_blank"
+                />
+                <a
+                  href="https://github.com/AAU-madboks-collab"
+                  target="_blank"
+                  className="px-4 py-2 rounded-md"
+                >
+                  GitHub Repository
+                </a>
+              </div>
+              <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
+                <li>
+                  <a
+                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    href="/P7_Documentation.pdf"
+                    download="Bence_Szabo_P7_Documentation"
+                  >
+                    Download Documentation
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <div>
               <h2 className="text-2xl py-4">
                 Bachelor Project: A machine learning powered recommender system
                 for Ekstra Bladet (2024)
               </h2>
               <p className="text-md py-2 leading-8 text-gray-800">
-                The project, a collaboration with the Danish tabloid newspaper
-                Ekstra Bladet, aims to boost user engagement on their mobile
-                application through the implementation of a
-                machine-learning-based recommender system.
+                This collaboration with the Danish tabloid newspaper Ekstra
+                Bladet aims to boost user engagement on their mobile application
+                through the implementation of a machine-learning-based
+                recommender system.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
                 The chosen technology stack includes GitHub for version control
@@ -653,73 +834,6 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-          </div>
-        </section>
-
-        <section id="work">
-          <div>
-            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
-            <h3 className="text-3xl py-5 font-semibold">Work Experience 👨‍💻</h3>
-
-            <div>
-              <h2 className="text-2xl py-4">
-                Teaching Assistant at Aalborg University Copenhagen (2024 - )
-              </h2>
-              <p className="text-md py-2 leading-8 text-gray-800">
-                I currently work as a teaching assistant at Aalborg University
-                Copenhagen, where I assist in the Educado Project, facilitating
-                communication between AAU and UAB, and providing technical
-                assistance to students.
-              </p>
-            </div>
-
-            <h2 className="text-2xl py-4">
-              Social Media Manager of an independent online entertainment page
-              (2018 - 2020)
-            </h2>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              In collaboration with some friends, I spent two years running
-              social media accounts (Facebook and Instagram) for an independent
-              online entertainment page. During my time, I gained experience in
-              producing engagement analytics and conducting small-scale
-              advertisement campaigns.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              The accounts featured humorous reflections on popular culture,
-              consisting of a mix of original and curated content. Following
-              popular culture, the account handles were changed numerous times
-              but still managed to garner a large following amongst younger
-              users. Shortly after surpassing 100.000 Followers and 10M+ monthly
-              engagements in 2020, the site was sold and rebranded.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image
-                src={some1}
-                alt="SoMe Image 1"
-                className="rounded-lg object-cover w-full h-auto"
-              />
-            </div>
-            <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-              <Image
-                src={some2}
-                alt="SoMe Image 2"
-                className="rounded-lg object-cover w-full h-auto"
-              />
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl py-4">
-              Service Worker at Rema 1000 (2016 - 2018)
-            </h2>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Similarly to many other Danish teenagers, I spent my high school
-              years working at a local grocery store. Here, I gained experience
-              in customer service, and I learned to participate in creating a
-              healthy work environment.
-            </p>
           </div>
 
           <div className="text-center pt-20 pb-10 text-gray-800">
