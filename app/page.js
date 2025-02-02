@@ -20,33 +20,50 @@ import p1 from "../public/P1.png";
 import p1_2 from "../public/P1_2.png";
 import some1 from "../public/some1Watermarked.png";
 import some2 from "../public/some2Watermarked.png";
+import inside from "../public/inside.jpg";
+import limbo from "../public/limbo.jpg";
+import brazil from "../public/brazil.jpg";
+import brazil_2 from "../public/brazil_2.jpg";
 
 export const metadata = {
-  title: "Bence Szabo - Software Engineering Student",
+  title: "Bence Szabo - Software Engineer, QA Specialist & Project Manager",
   description:
-    "Bence Szabo - Software Engineering student with skills in project management, coding, QA, design, and theory. Explore team-based projects and work experience.",
+    "Explore Bence Szabo's expertise in software engineering, QA, and project management. Discover projects in web development, AI, and cloud computing.",
   keywords: [
     "Bence Szabo",
-    "Software Engineering",
+    "Software Engineer",
+    "QA Specialist",
     "Project Management",
-    "Coding",
-    "QA",
-    "Design",
-    "Theory",
+    "Full-Stack Developer",
+    "Web Development",
+    "AI",
+    "Cloud Computing",
     "React",
     "Next.js",
+    "Node.js",
     "JavaScript",
     "TypeScript",
+    "Python",
     "Java",
+    "C++",
     "MongoDB",
     "Firebase",
+    "Supabase",
+    "FastAPI",
+    "Docker",
+    "Kubernetes",
+    "Google Cloud",
+    "Machine Learning",
+    "Unreal Engine",
   ],
   authors: [{ name: "Bence Szabo" }],
   openGraph: {
-    title: "Bence Szabo - Software Engineering Student",
+    title: "Bence Szabo - Software Engineer, QA Specialist & Project Manager",
     description:
-      "Explore the skills, team-based projects, and work experience of Bence Szabo, a Software Engineering student.",
+      "Discover the projects, skills, and experience of Bence Szabo in software engineering, QA, and cloud computing.",
     url: "https://bence-is-online.web.app/",
+    type: "website",
+    site_name: "Bence Szabo Portfolio",
   },
 };
 
@@ -182,6 +199,22 @@ export default function Home() {
                 are essential. My work primarily involves Perforce, Unreal
                 Engine, and C++ programming.
               </p>
+              <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={inside}
+                  alt="Playdead Image 1"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={limbo}
+                  alt="Playdead Image 2"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+            </div>
             </div>
 
             <div>
@@ -204,6 +237,22 @@ export default function Home() {
                 development, database management, and CI/CD optimisation and
                 automation.
               </p>
+              <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={brazil}
+                  alt="Egalitarian Image 1"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={brazil_2}
+                  alt="Egalitarian Image 2"
+                  className="rounded-lg object-cover w-full h-auto"
+                />
+              </div>
+            </div>
             </div>
 
             <h2 className="text-2xl py-4">
