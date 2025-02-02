@@ -200,21 +200,21 @@ export default function Home() {
                 Engine, and C++ programming.
               </p>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-                <Image
-                  src={inside}
-                  alt="Playdead Image 1"
-                  className="rounded-lg object-cover w-full h-auto"
-                />
+                <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                  <Image
+                    src={inside}
+                    alt="Playdead Image 1"
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                </div>
+                <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                  <Image
+                    src={limbo}
+                    alt="Playdead Image 2"
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                </div>
               </div>
-              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-                <Image
-                  src={limbo}
-                  alt="Playdead Image 2"
-                  className="rounded-lg object-cover w-full h-auto"
-                />
-              </div>
-            </div>
             </div>
 
             <div>
@@ -238,21 +238,21 @@ export default function Home() {
                 automation.
               </p>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-                <Image
-                  src={brazil}
-                  alt="Egalitarian Image 1"
-                  className="rounded-lg object-cover w-full h-auto"
-                />
+                <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                  <Image
+                    src={brazil}
+                    alt="Egalitarian Image 1"
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                </div>
+                <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                  <Image
+                    src={brazil_2}
+                    alt="Egalitarian Image 2"
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                </div>
               </div>
-              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
-                <Image
-                  src={brazil_2}
-                  alt="Egalitarian Image 2"
-                  className="rounded-lg object-cover w-full h-auto"
-                />
-              </div>
-            </div>
             </div>
 
             <h2 className="text-2xl py-4">
@@ -427,7 +427,8 @@ export default function Home() {
 
             <div>
               <h2 className="text-2xl py-4">
-                Madboks: A scalable booking and event management web-platform for a non-profit organization
+                Madboks: A scalable booking and event management web-platform
+                for a non-profit organization
               </h2>
               <p className="text-md py-2 leading-8 text-gray-800">
                 As the first master&apos;s project, this web-application is a
