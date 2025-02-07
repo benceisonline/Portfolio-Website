@@ -193,9 +193,9 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-800">
                 My role involves planning and conducting technical and user
                 tests, documenting issues and bugs, and enhancing the QA
-                team`&apos;`s toolbox with new software solutions. I work in a
+                team&apos;s toolbox with new software solutions. I work in a
                 highly dynamic environment where effective communication and a
-                deep understanding of each colleague`&apos;`s area of expertise
+                deep understanding of each colleague&apos;s area of expertise
                 are essential. My work primarily involves Perforce, Unreal
                 Engine, and C++ programming.
               </p>
@@ -223,7 +223,7 @@ export default function Home() {
                 Aalborg University / United Nations (2024 – 2025)
               </h2>
               <p className="text-md py-2 leading-8 text-gray-800">
-                I assisted in the Educado Project under the UN`&apos;`s
+                I assisted in the Educado Project under the UN&apos;s
                 Egalitarian Initiative (co-funded by the European Untion),
                 coordinating effective communication and software development
                 efforts between Aalborg University, Saxion University,
