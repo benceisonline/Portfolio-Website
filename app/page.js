@@ -355,6 +355,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">Google Workspace</p>
               <p className="text-gray-800 py-1">Azure Boards</p>
               <p className="text-gray-800 py-1">Trello</p>
+              <p className="text-gray-800 py-1">YouTrack</p>
+              <p className="text-gray-800 py-1">Jira</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
