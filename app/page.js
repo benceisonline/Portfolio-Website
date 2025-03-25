@@ -149,14 +149,14 @@ export default function Home() {
 
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a
-              className="hover: hover:text-blue-500 transition-colors duration-500"
+              className="hover:text-blue-500 transition-colors duration-500"
               href="https://www.linkedin.com/in/bencesz/"
               target="_blank"
             >
               <AiFillLinkedin />
             </a>
             <a
-              className="hover: hover:text-purple-500 transition-colors duration-500"
+              className="hover:text-purple-500 transition-colors duration-500"
               href="https://github.com/benceisonline"
               target="_blank"
             >
@@ -177,7 +177,7 @@ export default function Home() {
 
         <section id="work">
           <div>
-            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
+            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-full" />
             <h3 className="text-3xl py-5 font-semibold">Work Experience 👨‍💻</h3>
 
             <div>
@@ -204,14 +204,14 @@ export default function Home() {
                   <Image
                     src={inside}
                     alt="Playdead Image 1"
-                    className="rounded-lg object-cover w-full h-auto"
+                    className="rounded-lg object-cover w-full"
                   />
                 </div>
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
                     src={limbo}
                     alt="Playdead Image 2"
-                    className="rounded-lg object-cover w-full h-auto"
+                    className="rounded-lg object-cover w-full"
                   />
                 </div>
               </div>
@@ -242,14 +242,14 @@ export default function Home() {
                   <Image
                     src={brazil}
                     alt="Egalitarian Image 1"
-                    className="rounded-lg object-cover w-full h-auto"
+                    className="rounded-lg object-cover w-full"
                   />
                 </div>
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
                     src={brazil_2}
                     alt="Egalitarian Image 2"
-                    className="rounded-lg object-cover w-full h-auto"
+                    className="rounded-lg object-cover w-full"
                   />
                 </div>
               </div>
@@ -280,14 +280,14 @@ export default function Home() {
               <Image
                 src={some1}
                 alt="SoMe Image 1"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={some2}
                 alt="SoMe Image 2"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
           </div>
@@ -307,7 +307,7 @@ export default function Home() {
 
         <section id="skills">
           <div>
-            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
+            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-full" />
             <h3 className="text-3xl py-5 font-semibold">Skills 👨‍🏭</h3>
             <p className="text-md py-4 leading-8 text-gray-800">
               During my studies, I have gained a wide range of technical and
@@ -422,7 +422,7 @@ export default function Home() {
 
         <section id="projects">
           <div>
-            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-200" />
+            <hr className="border-t-2 border-gray-300 mb-6 mx-auto w-full" />
             <h3 className="text-3xl py-5 font-semibold">
               Team-Based Projects 🚀
             </h3>
@@ -454,14 +454,14 @@ export default function Home() {
                 <Image
                   src={p7}
                   alt="P7 Image 1"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={p7_2}
                   alt="P7 Image 2"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
             </div>
@@ -521,14 +521,14 @@ export default function Home() {
                 <Image
                   src={p6}
                   alt="P6 Image 1"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={p6_2}
                   alt="P6 Image 2"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
             </div>
@@ -589,14 +589,14 @@ export default function Home() {
                 <Image
                   src={p5}
                   alt="P5 Image 1"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={p5_2}
                   alt="P5 Image 2"
-                  className="rounded-lg object-cover w-full h-auto"
+                  className="rounded-lg object-cover w-full"
                 />
               </div>
             </div>
@@ -652,14 +652,14 @@ export default function Home() {
               <Image
                 src={p4}
                 alt="P4 Image 1"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={p4_2}
                 alt="P4 Image 2"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
           </div>
@@ -717,14 +717,14 @@ export default function Home() {
               <Image
                 src={p3}
                 alt="P3 Image 1"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={p3_2}
                 alt="P3 Image 2"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
           </div>
@@ -782,14 +782,14 @@ export default function Home() {
               <Image
                 src={p2}
                 alt="P2 Image 1"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={p2_2}
                 alt="P2 Image 2"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
           </div>
@@ -848,14 +848,14 @@ export default function Home() {
               <Image
                 src={p1}
                 alt="P1 Image 1"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={p1_2}
                 alt="P1 Image 2"
-                className="rounded-lg object-cover w-full h-auto"
+                className="rounded-lg object-cover w-full"
               />
             </div>
           </div>
