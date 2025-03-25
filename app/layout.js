@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Bence Szabó - Software Engineer',
   description: 'Website made using Next.js and Tailwind CSS',
-  icon: '/icon.ico',
 }
 
 export default function RootLayout({ children }) {
