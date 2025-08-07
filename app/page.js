@@ -28,44 +28,52 @@ import brazil from "../public/brazil.jpg";
 import brazil_2 from "../public/brazil_2.jpg";
 
 export const metadata = {
-  title: "Bence Szabo - Software Engineer, QA Specialist & Project Manager",
+  title:
+    "Bence Szabo – Full-Stack Software Engineer, QA Specialist & Technical Project Manager",
   description:
-    "Explore Bence Szabo's expertise in software engineering, QA, and project management. Discover projects in web development, AI, and cloud computing.",
+    "Portfolio of Bence Szabo, a full-stack software engineer with expertise in QA testing, cloud infrastructure, and agile project management. Explore cutting-edge projects in web development, AI, DevOps, and scalable systems.",
   keywords: [
-    "Bence Szabo",
-    "Software Engineer",
-    "QA Specialist",
-    "Project Management",
-    "Full-Stack Developer",
-    "Web Development",
-    "AI",
-    "Cloud Computing",
-    "React",
-    "Next.js",
-    "Node.js",
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "Java",
-    "C++",
-    "MongoDB",
+    "Bence Szabo portfolio",
+    "Full-Stack Software Engineer",
+    "QA Automation Specialist",
+    "Technical Project Manager",
+    "Web Development Projects",
+    "Agile Software Development",
+    "React Developer",
+    "Next.js Developer",
+    "Node.js Developer",
+    "JavaScript Engineer",
+    "TypeScript Developer",
+    "Python Developer",
+    "Java Engineer",
+    "C++ Developer",
+    "Cloud Computing Engineer",
+    "Google Cloud Platform",
     "Firebase",
     "Supabase",
-    "FastAPI",
+    "MongoDB",
     "Docker",
     "Kubernetes",
-    "Google Cloud",
-    "Machine Learning",
-    "Unreal Engine",
+    "FastAPI",
+    "Machine Learning Projects",
+    "AI Engineer Portfolio",
+    "Unreal Engine Developer",
+    "Software Testing",
+    "Test Automation",
+    "End-to-End Testing",
+    "CI/CD Pipelines",
+    "DevOps",
+    "Software Engineering Portfolio",
   ],
   authors: [{ name: "Bence Szabo" }],
   openGraph: {
-    title: "Bence Szabo - Software Engineer, QA Specialist & Project Manager",
+    title:
+      "Bence Szabo – Full-Stack Engineer, QA Automation Expert & Project Lead",
     description:
-      "Discover the projects, skills, and experience of Bence Szabo in software engineering, QA, and cloud computing.",
+      "Browse the portfolio of Bence Szabo, showcasing advanced web applications, machine learning tools, and robust QA solutions in scalable cloud environments.",
     url: "https://bence-is-online.web.app/",
     type: "website",
-    site_name: "Bence Szabo Portfolio",
+    site_name: "Bence Szabo | Software Engineer Portfolio",
   },
 };
 
@@ -193,12 +201,15 @@ export default function Home() {
                 <em>Inside</em>.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
-                My role focuses on designing and implementing functional automated tests, 
-                as well as planning and executing both technical and user testing. 
-                I document bugs and issues thoroughly, while continuously expanding the QA team&apos;s capabilities 
-                with new tools and software solutions. Working in a fast-paced, collaborative environment, 
-                I rely on clear communication and a strong understanding of each team member&apos;s domain expertise. 
-                My work primarily involves Perforce, Unreal Engine, and C++ development.
+                My role focuses on designing and implementing functional
+                automated tests, as well as planning and executing both
+                technical and user testing. I document bugs and issues
+                thoroughly, while continuously expanding the QA team&apos;s
+                capabilities with new tools and software solutions. Working in a
+                fast-paced, collaborative environment, I rely on clear
+                communication and a strong understanding of each team
+                member&apos;s domain expertise. My work primarily involves
+                Perforce, Unreal Engine, and C++ development.
               </p>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
@@ -368,17 +379,18 @@ export default function Home() {
               <p className="py-2">
                 Possessing a full-stack programming background, I acquired
                 imperative programming skills through C, delved into
-                object-oriented programming using Java and C++, and explored machine
-                learning with Python. I have also gained experience in web/app
-                development creating dynamic and fully responsive websites/apps
-                communicating with databases. I have worked in a Test-Driven
-                Development setting, and have implemented unit, integration, load, 
-                soak, and end-to-end testing in large projects.
+                object-oriented programming using Java and C++, and explored
+                machine learning with Python. I have also gained experience in
+                web/app development creating dynamic and fully responsive
+                websites/apps communicating with databases. I have worked in a
+                Test-Driven Development setting, and have implemented unit,
+                integration, load, soak, and end-to-end testing in large
+                projects.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
               <p className="text-gray-800 py-1">
-                JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart, Flutter, 
-                React Native, Tailwind, HTML, CSS
+                JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart,
+                Flutter, React Native, Tailwind, HTML, CSS
               </p>
               <p className="text-gray-800 py-1">
                 SQL, Google Cloud Services, Docker, Kubernetes, MongoDB,
@@ -427,19 +439,26 @@ export default function Home() {
 
             <div>
               <h2 className="text-2xl py-4">
-                SoundLink: A location-based music sharing platform using real-time data aggregation
+                SoundLink: A location-based music sharing platform using
+                real-time data aggregation
               </h2>
               <p className="text-md py-2 leading-8 text-gray-800">
-                  Developed as part of my master&apos;s programme, this mobile application explores how community-driven design 
-                  can enhance social interaction through music. The key challenges included real-time Spotify integration, 
-                  scalable geolocation-based data aggregation, anonymous identity handling, and seamless comment threading
-                  while maintaining full user privacy and performance under concurrent load.
+                Developed as part of my master&apos;s programme, this mobile
+                application explores how community-driven design can enhance
+                social interaction through music. The key challenges included
+                real-time Spotify integration, scalable geolocation-based data
+                aggregation, anonymous identity handling, and seamless comment
+                threading while maintaining full user privacy and performance
+                under concurrent load.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
-                  SoundLink enables users to create time-limited music hotspots tied to their current location and playback, 
-                  fostering spontaneous and anonymous community engagement. Built using a microservice architecture with a 
-                  Flutter frontend and Fastify backend, the system is designed for modular scalability and cultural exploration, 
-                  encouraging users to connect through shared taste rather than personal branding or social graphs.
+                SoundLink enables users to create time-limited music hotspots
+                tied to their current location and playback, fostering
+                spontaneous and anonymous community engagement. Built using a
+                microservice architecture with a Flutter frontend and Fastify
+                backend, the system is designed for modular scalability and
+                cultural exploration, encouraging users to connect through
+                shared taste rather than personal branding or social graphs.
               </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
