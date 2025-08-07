@@ -4,6 +4,8 @@ import myface from "../public/myface.png";
 import explorer from "../public/explorer-dynamic-colorx.png";
 import hash from "../public/hash-dynamic-color.png";
 import bulb from "../public/bulb-dynamic-color.png";
+import p8_2 from "../public/P8_2.png";
+import p8 from "../public/P8.png";
 import p7_2 from "../public/P7_2.png";
 import p7 from "../public/P7.png";
 import p6 from "../public/P6.png";
@@ -191,13 +193,12 @@ export default function Home() {
                 <em>Inside</em>.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
-                My role involves planning and conducting technical and user
-                tests, documenting issues and bugs, and enhancing the QA
-                team&apos;s toolbox with new software solutions. I work in a
-                highly dynamic environment where effective communication and a
-                deep understanding of each colleague&apos;s area of expertise
-                are essential. My work primarily involves Perforce, Unreal
-                Engine, and C++ programming.
+                My role focuses on designing and implementing functional automated tests, 
+                as well as planning and executing both technical and user testing. 
+                I document bugs and issues thoroughly, while continuously expanding the QA team&apos;s capabilities 
+                with new tools and software solutions. Working in a fast-paced, collaborative environment, 
+                I rely on clear communication and a strong understanding of each team member&apos;s domain expertise. 
+                My work primarily involves Perforce, Unreal Engine, and C++ development.
               </p>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
@@ -331,7 +332,6 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                {/* Centering container */}
                 <Image src={explorer} alt="design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
@@ -362,34 +362,33 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                {/* Centering container */}
                 <Image src={hash} alt="design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Coding & QA</h3>
               <p className="py-2">
                 Possessing a full-stack programming background, I acquired
                 imperative programming skills through C, delved into
-                object-oriented programming using Java, and explored machine
+                object-oriented programming using Java and C++, and explored machine
                 learning with Python. I have also gained experience in web/app
                 development creating dynamic and fully responsive websites/apps
                 communicating with databases. I have worked in a Test-Driven
-                Development setting, and have implemented unit, integration, and
-                end-to-end testing in large projects.
+                Development setting, and have implemented unit, integration, load, 
+                soak, and end-to-end testing in large projects.
               </p>
               <h4 className="py-4 text-teal-600">Tools I have used</h4>
               <p className="text-gray-800 py-1">
-                JavaScript/TypeScript - Node.js, Next.js, React, React Native,
-                Express, HTML, Tailwind, CSS
+                JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart, Flutter, 
+                React Native, Tailwind, HTML, CSS
               </p>
               <p className="text-gray-800 py-1">
-                SQL, Google Cloud Services, Docker, Kubernetes MongoDB,
-                Firebase, Supabase
+                SQL, Google Cloud Services, Docker, Kubernetes, MongoDB,
+                Firebase, Supabase, NGINX, Grafana k6
               </p>
               <p className="text-gray-800 py-1">
                 Python - Pandas, Keras, PyTorch, Tensorflow
               </p>
               <p className="text-gray-800 py-1">Java - JUnit 5, JavaFX</p>
-              <p className="text-gray-800 py-1">C++ - Unreal</p>
+              <p className="text-gray-800 py-1">C++ - Unreal Engine</p>
               <p className="text-gray-800 py-1">C - CuTest</p>
               <p className="text-gray-800 py-1">R</p>
             </div>
@@ -397,7 +396,6 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                {/* Centering container */}
                 <Image src={bulb} alt="design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Design & Theory</h3>
@@ -426,6 +424,68 @@ export default function Home() {
             <h3 className="text-3xl py-5 font-semibold">
               Team-Based Projects 🚀
             </h3>
+
+            <div>
+              <h2 className="text-2xl py-4">
+                SoundLink: A location-based music sharing platform using real-time data aggregation
+              </h2>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                  Developed as part of my master&apos;s programme, this mobile application explores how community-driven design 
+                  can enhance social interaction through music. The key challenges included real-time Spotify integration, 
+                  scalable geolocation-based data aggregation, anonymous identity handling, and seamless comment threading
+                  while maintaining full user privacy and performance under concurrent load.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                  SoundLink enables users to create time-limited music hotspots tied to their current location and playback, 
+                  fostering spontaneous and anonymous community engagement. Built using a microservice architecture with a 
+                  Flutter frontend and Fastify backend, the system is designed for modular scalability and cultural exploration, 
+                  encouraging users to connect through shared taste rather than personal branding or social graphs.
+              </p>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={p8}
+                  alt="P8 Image 1"
+                  className="rounded-lg object-cover w-full"
+                />
+              </div>
+              <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
+                <Image
+                  src={p8_2}
+                  alt="P8 Image 2"
+                  className="rounded-lg object-cover w-full"
+                />
+              </div>
+            </div>
+            <div className="py-10 mb-10 flex flex-col items-center sm:flex-row sm:justify-between">
+              <div className="flex items-center text-gray-800 font-semibold mb-4 sm:mb-0 hover:text-teal-600 transition-colors duration-500">
+                <AiFillGithub
+                  className=""
+                  size={30}
+                  href="https://github.com/saraselmn/SoundLink"
+                  target="_blank"
+                />
+                <a
+                  href="https://github.com/saraselmn/SoundLink"
+                  target="_blank"
+                  className="px-4 py-2 rounded-md"
+                >
+                  GitHub Repository
+                </a>
+              </div>
+              <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
+                <li>
+                  <a
+                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    href="/P8_Documentation.pdf"
+                    download="Bence_Szabo_P8_Documentation"
+                  >
+                    Download Documentation
+                  </a>
+                </li>
+              </ul>
+            </div>
 
             <div>
               <h2 className="text-2xl py-4">
