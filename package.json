@@ -19,6 +19,6 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "sharp": "^0.34.0",
-    "tailwindcss": "^4.0.15"
+    "tailwindcss": "^4.1.13"
   }
 }
