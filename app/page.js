@@ -1,31 +1,5 @@
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import myface from "../public/myface.png";
-import explorer from "../public/explorer-dynamic-colorx.png";
-import hash from "../public/hash-dynamic-color.png";
-import bulb from "../public/bulb-dynamic-color.png";
-import p8_2 from "../public/P8_2.png";
-import p8 from "../public/P8.png";
-import p7_2 from "../public/P7_2.png";
-import p7 from "../public/P7.png";
-import p6 from "../public/P6.png";
-import p6_2 from "../public/P6_2.png";
-import p5 from "../public/P5.png";
-import p5_2 from "../public/P5_2.png";
-import p4 from "../public/P4.png";
-import p4_2 from "../public/P4_2.png";
-import p3 from "../public/P3.png";
-import p3_2 from "../public/P3_2.png";
-import p2 from "../public/P2.png";
-import p2_2 from "../public/P2_2.png";
-import p1 from "../public/P1.png";
-import p1_2 from "../public/P1_2.png";
-import some1 from "../public/some1Watermarked.png";
-import some2 from "../public/some2Watermarked.png";
-import inside from "../public/inside.jpg";
-import limbo from "../public/limbo.jpg";
-import brazil from "../public/brazil.jpg";
-import brazil_2 from "../public/brazil_2.jpg";
 
 export const metadata = {
   title:
@@ -106,7 +80,7 @@ export default function Home() {
             <ul className="flex items-center justify-center sm:justify-start hover:scale-105 drop-shadow-lg transition-transform duration-500 py-2">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md whitespace-nowrap"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md whitespace-nowrap"
                   href="/resume.pdf"
                   download="Bence_Szabo_Resume"
                 >
@@ -174,11 +148,13 @@ export default function Home() {
             </a>
           </div>
           <div
-            className="relative mx-auto bg-gradient-to-b from-teal-400 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96 
+            className="relative mx-auto bg-linear-to-b from-teal-400 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96 
                           hover:scale-105 drop-shadow-lg transition-transform duration-500"
           >
             <Image
-              src={myface}
+              src={"/myface.png"}
+              width={1250}
+              height={1010}
               alt="My Face"
               className="object-cover w-full h-full"
             />
@@ -214,14 +190,18 @@ export default function Home() {
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
-                    src={inside}
+                    src={"/inside.jpg"}
+                    width={1250}
+                    height={1010}
                     alt="Playdead Image 1"
                     className="rounded-lg object-cover w-full"
                   />
                 </div>
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
-                    src={limbo}
+                    src={"/limbo.jpg"}
+                    width={1250}
+                    height={1010}
                     alt="Playdead Image 2"
                     className="rounded-lg object-cover w-full"
                   />
@@ -252,14 +232,18 @@ export default function Home() {
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
-                    src={brazil}
+                    src={"/brazil.jpg"}
+                    width={1250}
+                    height={1010}
                     alt="Egalitarian Image 1"
                     className="rounded-lg object-cover w-full"
                   />
                 </div>
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
-                    src={brazil_2}
+                    src={"/brazil_2.jpg"}
+                    width={1250}
+                    height={1010}
                     alt="Egalitarian Image 2"
                     className="rounded-lg object-cover w-full"
                   />
@@ -290,14 +274,18 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={some1}
+                src={"/some1Watermarked.png"}
+                width={1250}
+                height={1010}
                 alt="SoMe Image 1"
                 className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={some2}
+                src={"/some2Watermarked.png"}
+                width={1250}
+                height={1010}
                 alt="SoMe Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -343,7 +331,12 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                <Image src={explorer} alt="design" width={100} height={100} />
+                <Image
+                  src={"/explorer-dynamic-colorx.png"}
+                  alt="design"
+                  width={100}
+                  height={100}
+                />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Project Management
@@ -373,7 +366,12 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                <Image src={hash} alt="design" width={100} height={100} />
+                <Image
+                  src={"/hash-dynamic-color.png"}
+                  alt="design"
+                  width={100}
+                  height={100}
+                />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Coding & QA</h3>
               <p className="py-2">
@@ -408,7 +406,12 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-105 transition-transform duration-500">
               <div className="flex justify-center items-center">
                 {" "}
-                <Image src={bulb} alt="design" width={100} height={100} />
+                <Image
+                  src={"/bulb-dynamic-color.png"}
+                  alt="design"
+                  width={100}
+                  height={100}
+                />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Design & Theory</h3>
               <p className="py-2">
@@ -464,14 +467,18 @@ export default function Home() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p8}
+                  src={"/P8.png"}
+                  width={1250}
+                  height={1010}
                   alt="P8 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p8_2}
+                  src={"/P8_2.png"}
+                  width={1250}
+                  height={1010}
                   alt="P8 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -496,7 +503,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P8_Documentation.pdf"
                     download="Bence_Szabo_P8_Documentation"
                   >
@@ -531,14 +538,18 @@ export default function Home() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p7}
+                  src={"/P7.png"}
+                  width={1250}
+                  height={1010}
                   alt="P7 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p7_2}
+                  src={"/P7_2.png"}
+                  width={1250}
+                  height={1010}
                   alt="P7 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -563,7 +574,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P7_Documentation.pdf"
                     download="Bence_Szabo_P7_Documentation"
                   >
@@ -598,14 +609,18 @@ export default function Home() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p6}
+                  src={"/P6.png"}
+                  width={1250}
+                  height={1010}
                   alt="P6 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p6_2}
+                  src={"/P6_2.png"}
+                  width={1250}
+                  height={1010}
                   alt="P6 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -630,7 +645,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P6_Documentation.pdf"
                     download="Bence_Szabo_P6_Documentation"
                   >
@@ -666,14 +681,18 @@ export default function Home() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p5}
+                  src={"/P5.png"}
+                  width={1250}
+                  height={1010}
                   alt="P5 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
               </div>
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
-                  src={p5_2}
+                  src={"/P5_2.png"}
+                  width={1250}
+                  height={1010}
                   alt="P5 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -698,7 +717,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P5_Documentation.pdf"
                     download="Bence_Szabo_P5_Documentation"
                   >
@@ -729,14 +748,18 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p4}
+                src={"/P4.png"}
+                width={1250}
+                height={1010}
                 alt="P4 Image 1"
                 className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p4_2}
+                src={"/P4_2.png"}
+                width={1250}
+                height={1010}
                 alt="P4 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -761,7 +784,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P4_Documentation.pdf"
                   download="Bence_Szabo_P4_Documentation"
                 >
@@ -794,14 +817,18 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p3}
+                src={"/P3.png"}
+                width={1250}
+                height={1010}
                 alt="P3 Image 1"
                 className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p3_2}
+                src={"/P3_2.png"}
+                width={1250}
+                height={1010}
                 alt="P3 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -826,7 +853,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P3_Documentation.pdf"
                   download="Bence_Szabo_P3_Documentation"
                 >
@@ -859,14 +886,18 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p2}
+                src={"/P2.png"}
+                width={1250}
+                height={1010}
                 alt="P2 Image 1"
                 className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p2_2}
+                src={"/P2_2.png"}
+                width={1250}
+                height={1010}
                 alt="P2 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -891,7 +922,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-rrom-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P2_Documentation.pdf"
                   download="Bence_Szabo_P2_Documentation"
                 >
@@ -925,14 +956,18 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p1}
+                src={"/P1.png"}
+                width={1250}
+                height={1010}
                 alt="P1 Image 1"
                 className="rounded-lg object-cover w-full"
               />
             </div>
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
-                src={p1_2}
+                src={"/P1_2.png"}
+                width={1250}
+                height={1010}
                 alt="P1 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -957,7 +992,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P1_Documentation.pdf"
                   download="Bence_Szabo_P1_Documentation"
                 >
