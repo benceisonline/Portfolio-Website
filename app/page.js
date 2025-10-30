@@ -106,7 +106,7 @@ export default function Home() {
             <ul className="flex items-center justify-center sm:justify-start hover:scale-105 drop-shadow-lg transition-transform duration-500 py-2">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md whitespace-nowrap"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md whitespace-nowrap"
                   href="/resume.pdf"
                   download="Bence_Szabo_Resume"
                 >
@@ -174,7 +174,7 @@ export default function Home() {
             </a>
           </div>
           <div
-            className="relative mx-auto bg-gradient-to-b from-teal-400 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96 
+            className="relative mx-auto bg-linear-to-b from-teal-400 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96 
                           hover:scale-105 drop-shadow-lg transition-transform duration-500"
           >
             <Image
@@ -496,7 +496,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P8_Documentation.pdf"
                     download="Bence_Szabo_P8_Documentation"
                   >
@@ -563,7 +563,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P7_Documentation.pdf"
                     download="Bence_Szabo_P7_Documentation"
                   >
@@ -630,7 +630,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P6_Documentation.pdf"
                     download="Bence_Szabo_P6_Documentation"
                   >
@@ -698,7 +698,7 @@ export default function Home() {
               <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
                 <li>
                   <a
-                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                    className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                     href="/P5_Documentation.pdf"
                     download="Bence_Szabo_P5_Documentation"
                   >
@@ -761,7 +761,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P4_Documentation.pdf"
                   download="Bence_Szabo_P4_Documentation"
                 >
@@ -826,7 +826,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P3_Documentation.pdf"
                   download="Bence_Szabo_P3_Documentation"
                 >
@@ -891,7 +891,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P2_Documentation.pdf"
                   download="Bence_Szabo_P2_Documentation"
                 >
@@ -957,7 +957,7 @@ export default function Home() {
             <ul className="flex items-center hover:scale-105 drop-shadow-lg transition-transform duration-500">
               <li>
                 <a
-                  className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  className="font-semibold bg-linear-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                   href="/P1_Documentation.pdf"
                   download="Bence_Szabo_P1_Documentation"
                 >
