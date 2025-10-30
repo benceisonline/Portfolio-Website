@@ -153,8 +153,7 @@ export default function Home() {
           >
             <Image
               src={"/myface.png"}
-              width={1250}
-              height={1010}
+              fill={true}
               alt="My Face"
               className="object-cover w-full h-full"
             />
@@ -200,8 +199,8 @@ export default function Home() {
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
                     src={"/limbo.jpg"}
-                    width={1250}
-                    height={1010}
+                    width={1200}
+                    height={1000}
                     alt="Playdead Image 2"
                     className="rounded-lg object-cover w-full"
                   />
@@ -233,8 +232,8 @@ export default function Home() {
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
                     src={"/brazil.jpg"}
-                    width={1250}
-                    height={1010}
+                    width={1200}
+                    height={1000}
                     alt="Egalitarian Image 1"
                     className="rounded-lg object-cover w-full"
                   />
@@ -242,8 +241,8 @@ export default function Home() {
                 <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                   <Image
                     src={"/brazil_2.jpg"}
-                    width={1250}
-                    height={1010}
+                    width={1200}
+                    height={1000}
                     alt="Egalitarian Image 2"
                     className="rounded-lg object-cover w-full"
                   />
@@ -275,8 +274,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/some1Watermarked.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="SoMe Image 1"
                 className="rounded-lg object-cover w-full"
               />
@@ -284,8 +283,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/some2Watermarked.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="SoMe Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -468,8 +467,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P8.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P8 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
@@ -477,8 +476,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P8_2.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P8 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -539,8 +538,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P7.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P7 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
@@ -548,8 +547,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P7_2.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P7 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -610,8 +609,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P6.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P6 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
@@ -619,8 +618,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P6_2.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P6 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -682,8 +681,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P5.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P5 Image 1"
                   className="rounded-lg object-cover w-full"
                 />
@@ -691,8 +690,8 @@ export default function Home() {
               <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
                 <Image
                   src={"/P5_2.png"}
-                  width={1250}
-                  height={1010}
+                  width={1200}
+                  height={1000}
                   alt="P5 Image 2"
                   className="rounded-lg object-cover w-full"
                 />
@@ -749,8 +748,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P4.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P4 Image 1"
                 className="rounded-lg object-cover w-full"
               />
@@ -758,8 +757,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P4_2.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P4 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -818,8 +817,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P3.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P3 Image 1"
                 className="rounded-lg object-cover w-full"
               />
@@ -827,8 +826,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P3_2.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P3 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -887,8 +886,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P2.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P2 Image 1"
                 className="rounded-lg object-cover w-full"
               />
@@ -896,8 +895,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P2_2.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P2 Image 2"
                 className="rounded-lg object-cover w-full"
               />
@@ -957,8 +956,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P1.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P1 Image 1"
                 className="rounded-lg object-cover w-full"
               />
@@ -966,8 +965,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1 hover:scale-105 transition-transform duration-500">
               <Image
                 src={"/P1_2.png"}
-                width={1250}
-                height={1010}
+                width={1200}
+                height={1000}
                 alt="P1 Image 2"
                 className="rounded-lg object-cover w-full"
               />
