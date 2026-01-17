@@ -45,6 +45,8 @@ import brazil from "../public/brazil.jpg";
 import brazil_2 from "../public/brazil_2.jpg";
 import inside from "../public/inside.jpg";
 import limbo from "../public/limbo.jpg";
+import snoopy from "../public/snoopy.jpg";
+import Image from "next/image";
 
 export const metadata = {
   title: "Bence Szabo | Full-Stack Engineer & QA Automation Specialist",
@@ -371,9 +373,22 @@ export default function Home() {
 
             <FadeInOnScroll>
               <WorkExperienceItem title="Service Worker at Rema 1000 (2016 - 2018)">
-                {[
-                  "Similarly to many other Danish teenagers, I spent my high school years working at a local grocery store. Here, I gained experience in customer service, and I learned to participate in creating a healthy work environment.",
-                ]}
+                <>
+                  <div className="text-base sm:text-lg py-2 leading-7 md:leading-8 text-gray-800">
+                    Similarly to many other Danish teenagers, I spent my high school years working at a local grocery store. Here, I gained experience in customer service, and I learned to participate in creating a healthy work environment.
+                  </div>
+
+                  <div className="flex justify-center -mt-1">
+                    <div className="w-40 sm:w-48 md:w-56">
+                      <Image
+                        src={snoopy}
+                        alt="Snoopy"
+                        className="w-full h-auto object-contain pointer-events-none"
+                        sizes="(max-width: 640px) 160px, 224px"
+                      />
+                    </div>
+                  </div>
+                </>
               </WorkExperienceItem>
             </FadeInOnScroll>
         </section>
