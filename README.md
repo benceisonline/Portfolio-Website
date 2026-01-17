@@ -17,17 +17,21 @@ See [TECH_STACK.md](docs/TECH_STACK.md) for details.
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js 18+
 - Firebase CLI (`npm install -g firebase-tools`)
 
 ### Development
+
 ```bash
 npm install
 npm run dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) to view locally.
 
 ### Production Build
+
 ```bash
 npm run build
 npm start

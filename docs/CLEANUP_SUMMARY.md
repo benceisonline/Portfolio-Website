@@ -3,18 +3,21 @@
 ## Changes Made
 
 ### 🗑️ Removed
+
 - ✅ `app/page.js.old` - Backup file
 - ✅ `app/components/EducationCard.js` - Unused component
 - ✅ `firebase_setup.txt` - Moved to docs
 - ✅ `general_info.txt` - Moved to docs
 
 ### 📁 Reorganized
+
 - Created `/docs/` directory for documentation
   - `FIREBASE_SETUP.md` - Firebase deployment guide
   - `TECH_STACK.md` - Technology stack details
   - `CONTRIBUTING.md` - Development guidelines
 
 ### 📝 Created/Updated
+
 - ✅ `.prettierrc` - Code formatting config
 - ✅ `.prettierignore` - Prettier ignore rules
 - ✅ `.gitignore` - Enhanced with more patterns (backups, IDE, OS files)
@@ -54,6 +57,7 @@ portfolio-website/
 5. **Developer Experience** - Clear folder structure and guidelines
 
 ## Build Status
+
 ✅ Production build: **Successful**
 ✅ Bundle size: **Optimized** (~76KB app folder)
 ✅ All components: **Functional**

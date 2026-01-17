@@ -4,7 +4,11 @@ import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
-export default function ProjectImageGallery({ images, heightClass = "aspect-video", widthClass = "w-full" }) {
+export default function ProjectImageGallery({
+  images,
+  heightClass = "aspect-video",
+  widthClass = "w-full",
+}) {
   // `mountedImage` controls whether the portal is mounted.
   // `isVisible` toggles CSS classes to trigger transitions.
   const [mountedImage, setMountedImage] = useState(null);
@@ -15,7 +19,9 @@ export default function ProjectImageGallery({ images, heightClass = "aspect-vide
   const openImage = (img) => {
     // mount first, then trigger visible state on next tick
     setMountedImage(img);
-    requestAnimationFrame(() => requestAnimationFrame(() => setIsVisible(true)));
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => setIsVisible(true))
+    );
   };
 
   // Close with animation and delay unmount until transition finishes
@@ -72,20 +78,28 @@ export default function ProjectImageGallery({ images, heightClass = "aspect-vide
   return (
     <>
       <div className="flex justify-center py-3 sm:py-4 lg:py-5 -mx-4 sm:-mx-8 md:-mx-16 lg:-mx-40 px-4 sm:px-8 md:px-16 lg:px-40">
-        <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 w-full ${widthClass}`}>
+        <div
+          className={`grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 w-full ${widthClass}`}
+        >
           {images.map((img, index) => (
             <div
               key={index}
               className={`w-full ${heightClass} hover:scale-105 transition-transform duration-500 overflow-hidden rounded-xl cursor-pointer bg-white flex items-center justify-center`}
               onClick={() => openImage(img)}
             >
-              <Image src={img.src} alt={img.alt} className="w-full h-full object-contain rounded-xl" />
+              <Image
+                src={img.src}
+                alt={img.alt}
+                className="w-full h-full object-contain rounded-xl"
+              />
             </div>
           ))}
         </div>
       </div>
 
-      {mountedImage && typeof document !== "undefined" ? createPortal(overlay, document.body) : null}
+      {mountedImage && typeof document !== "undefined"
+        ? createPortal(overlay, document.body)
+        : null}
     </>
   );
 }

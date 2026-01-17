@@ -7,7 +7,9 @@ export default function ScrollProgressBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const totalHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
       const progress = (window.scrollY / totalHeight) * 100;
       setScrollProgress(progress);
     };

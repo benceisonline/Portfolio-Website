@@ -1,6 +1,7 @@
 ## Setup Firebase
 
 ### Initial Setup
+
 1. Create a Firebase project
 2. Run the following commands:
 
@@ -14,10 +15,12 @@ firebase deploy
 ```
 
 ### Documentation
+
 - [Integrate Next.js with Firebase](https://firebase.google.com/docs/hosting/frameworks/nextjs)
 - [How to Deploy Next.js Frontend](https://javascript.plainenglish.io/how-to-deploy-a-nextjs-website-33b65765d54d)
 
 ### Troubleshooting Image Issues
+
 If you encounter image optimization issues, ensure `next.config.js` has:
 
 ```javascript
@@ -26,7 +29,7 @@ const nextConfig = {
     unoptimized: true,
   },
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
 };
 module.exports = nextConfig;
 ```

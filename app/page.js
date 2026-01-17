@@ -13,7 +13,7 @@ import ScrollProgressBar from "./components/ScrollProgressBar";
 import FadeInOnScroll from "./components/FadeInOnScroll";
 
 // Profile & Icons
-import myface from "../public/myface.png";
+import profilePic from "../public/pfp-2026.png";
 import explorer from "../public/explorer-dynamic-colorx.png";
 import hash from "../public/hash-dynamic-color.png";
 import bulb from "../public/bulb-dynamic-color.png";
@@ -94,7 +94,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://bence-is-online.web.app/myface.png",
+        url: "https://bence-is-online.web.app/pfp-2026.png",
         width: 800,
         height: 600,
         alt: "Bence Szabo",
@@ -105,7 +105,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Bence Szabo | Full-Stack Engineer & QA Specialist",
-    description: "Check out my latest projects in web development, AI, and DevOps",
+    description:
+      "Check out my latest projects in web development, AI, and DevOps",
     creator: "@benceszabo",
   },
   alternates: {
@@ -174,8 +175,10 @@ export default function Home() {
 
   const projects = [
     {
-      title: "SoundLink: Real-Time Location-based Music Sharing Platform (2025)",
-      description: "Master's thesis project exploring community-driven social interaction through music. Key challenges: real-time Spotify integration, scalable geolocation data aggregation, anonymous identity handling, and seamless performance under concurrent load. Built using a microservice architecture with Flutter frontend and Fastify backend, users create time-limited music hotspots to connect with others based on shared taste, fostering spontaneous community engagement while maintaining user privacy.",
+      title:
+        "SoundLink: Real-Time Location-based Music Sharing Platform (2025)",
+      description:
+        "Master's thesis project exploring community-driven social interaction through music. Key challenges: real-time Spotify integration, scalable geolocation data aggregation, anonymous identity handling, and seamless performance under concurrent load. Built using a microservice architecture with Flutter frontend and Fastify backend, users create time-limited music hotspots to connect with others based on shared taste, fostering spontaneous community engagement while maintaining user privacy.",
       images: [
         { src: p8, alt: "P8 Image 1" },
         { src: p8_2, alt: "P8 Image 2" },
@@ -187,7 +190,8 @@ export default function Home() {
     },
     {
       title: "Madboks: Scalable Booking & Event Platform (2025)",
-      description: "First master's project delivering a booking and event management platform for a non-profit. Implemented Cloudflare WAF rules, reliable email workflows, and secure authentication/session handling alongside a fully responsive frontend. Microservice-based architecture keeps booking and event flows resilient under heavy usage, designed collaboratively with admins and end users.",
+      description:
+        "First master's project delivering a booking and event management platform for a non-profit. Implemented Cloudflare WAF rules, reliable email workflows, and secure authentication/session handling alongside a fully responsive frontend. Microservice-based architecture keeps booking and event flows resilient under heavy usage, designed collaboratively with admins and end users.",
       images: [
         { src: p7, alt: "P7 Image 1" },
         { src: p7_2, alt: "P7 Image 2" },
@@ -200,7 +204,8 @@ export default function Home() {
     },
     {
       title: "Bachelor Project: ML Recommender System for Ekstra Bladet (2024)",
-      description: "Built a machine-learning recommender system for Denmark's leading tabloid newspaper to boost mobile app user engagement. Stack includes GitHub CI/CD, FastAPI for model serving, and a modular architecture enabling easy model swapping. The LightFM model achieved a 0.90 AUC score, delivering 90% accurate recommendations.",
+      description:
+        "Built a machine-learning recommender system for Denmark's leading tabloid newspaper to boost mobile app user engagement. Stack includes GitHub CI/CD, FastAPI for model serving, and a modular architecture enabling easy model swapping. The LightFM model achieved a 0.90 AUC score, delivering 90% accurate recommendations.",
       images: [
         { src: p6, alt: "P6 Image 1" },
         { src: p6_2, alt: "P6 Image 2" },
@@ -212,8 +217,10 @@ export default function Home() {
       widthClass: "max-w-4xl",
     },
     {
-      title: "Educado: Educational Platform for a United Nations Project (2023)",
-      description: "Erasmus-funded partnership between Aalborg University and University of Brasília. Developed a socially-gamified mobile platform for waste pickers in Brazil that attracted UN Development Programme (UNDP) consideration for funding. Led React Native frontend development and implemented highly automated CI/CD pipeline using Nexus Framework (Scaled Scrum), with full-stack responsibilities across multiple teams and universities.",
+      title:
+        "Educado: Educational Platform for a United Nations Project (2023)",
+      description:
+        "Erasmus-funded partnership between Aalborg University and University of Brasília. Developed a socially-gamified mobile platform for waste pickers in Brazil that attracted UN Development Programme (UNDP) consideration for funding. Led React Native frontend development and implemented highly automated CI/CD pipeline using Nexus Framework (Scaled Scrum), with full-stack responsibilities across multiple teams and universities.",
       images: [
         { src: p5, alt: "P5 Image 1" },
         { src: p5_2, alt: "P5 Image 2" },
@@ -225,7 +232,8 @@ export default function Home() {
     },
     {
       title: "Custom Compiler for 8-bit Hardware (2023)",
-      description: "Developed a compiler that translates a modern programming language to Assembly 6502 (used in SNES and Furby). Full-featured language supporting variables, procedures, loops, and conditionals. Implemented all compiler phases: lexical analysis, syntax analysis, semantic analysis, and code generation. Written in Java.",
+      description:
+        "Developed a compiler that translates a modern programming language to Assembly 6502 (used in SNES and Furby). Full-featured language supporting variables, procedures, loops, and conditionals. Implemented all compiler phases: lexical analysis, syntax analysis, semantic analysis, and code generation. Written in Java.",
       images: [
         { src: p4, alt: "P4 Image 1" },
         { src: p4_2, alt: "P4 Image 2" },
@@ -238,7 +246,8 @@ export default function Home() {
     },
     {
       title: "Café Management System for The Living Room (2022)",
-      description: "Desktop application for Copenhagen café 'The Living Room' that manages tasks, employees, schedules, and internal communication with real-time data sync. Focused on intuitive UI/UX and well-structured codebase, built with Java and MongoDB to provide a seamless experience for both employees and managers.",
+      description:
+        "Desktop application for Copenhagen café 'The Living Room' that manages tasks, employees, schedules, and internal communication with real-time data sync. Focused on intuitive UI/UX and well-structured codebase, built with Java and MongoDB to provide a seamless experience for both employees and managers.",
       images: [
         { src: p3, alt: "P3 Image 1" },
         { src: p3_2, alt: "P3 Image 2" },
@@ -251,7 +260,8 @@ export default function Home() {
     },
     {
       title: "Budget & Expense Tracker (2022)",
-      description: "Full-stack web app for students to track expenses and manage budgets with goal-setting, planning tools, and expense tracking with real-time updates. Built using MVC architecture with Node.js/Express backend and MongoDB Atlas, designed for scalability and clean separation of concerns.",
+      description:
+        "Full-stack web app for students to track expenses and manage budgets with goal-setting, planning tools, and expense tracking with real-time updates. Built using MVC architecture with Node.js/Express backend and MongoDB Atlas, designed for scalability and clean separation of concerns.",
       images: [
         { src: p2, alt: "P2 Image 1" },
         { src: p2_2, alt: "P2 Image 2" },
@@ -264,7 +274,8 @@ export default function Home() {
     },
     {
       title: "Recruitment Process Automation (2021)",
-      description: "First university project in collaboration with Danish companies (Novo Nordisk, DSB, Jyske Bank) where I gathered real-world HR requirements and delivered a proof-of-concept solution. Command-line application written in C that analyzes job applications, ranks candidates using keyword matching, and extracts relevant information automatically.",
+      description:
+        "First university project in collaboration with Danish companies (Novo Nordisk, DSB, Jyske Bank) where I gathered real-world HR requirements and delivered a proof-of-concept solution. Command-line application written in C that analyzes job applications, ranks candidates using keyword matching, and extracts relevant information automatically.",
       images: [
         { src: p1, alt: "P1 Image 1" },
         { src: p1_2, alt: "P1 Image 2" },
@@ -279,12 +290,12 @@ export default function Home() {
   return (
     <div>
       <ScrollProgressBar />
-      <main className="bg-white px-4 sm:px-8 md:px-16 lg:px-40">
-        <section className="min-h-screen pt-4 sm:pt-6 pb-8 sm:pb-12">
+      <main className="bg-white px-4 sm:px-8 md:px-16 lg:px-40 animate-fade-in">
+        <section className="min-h-screen py-10 md:py-12">
           <Navigation />
 
           <HeroSection
-            image={myface}
+            image={profilePic}
             name="Bence"
             subtitle="I am a Software Engineering student"
             description={[
@@ -297,29 +308,30 @@ export default function Home() {
                 text: "I completed my BSc in Civil Engineering Software at Aalborg University Copenhagen, an education with a focus on the problem-based learning model and real-world problem-solving.",
               },
             ]}
+            socials={[
+              {
+                href: "https://www.linkedin.com/in/bencesz/",
+                name: "LinkedIn",
+                Icon: AiFillLinkedin,
+                color: "text-blue-600",
+                hoverColor: "text-blue-700",
+              },
+              {
+                href: "https://github.com/benceisonline",
+                name: "GitHub",
+                Icon: AiFillGithub,
+                color: "text-black",
+                hoverColor: "text-gray-700",
+              },
+            ]}
+            location={"Copenhagen"}
+            contact={"benceisonline@gmail.com"}
           />
-
-          <FadeInOnScroll>
-            <div className="text-3xl sm:text-4xl md:text-5xl flex justify-center gap-8 sm:gap-12 md:gap-16 py-6">
-            <SocialIcon
-              href="https://www.linkedin.com/in/bencesz/"
-              Icon={AiFillLinkedin}
-              color="text-blue-600"
-              hoverColor="text-blue-700"
-            />
-            <SocialIcon
-              href="https://github.com/benceisonline"
-              Icon={AiFillGithub}
-              color="text-black"
-              hoverColor="text-gray-700"
-            />
-          </div>
-          </FadeInOnScroll>
         </section>
 
         {/* Work Experience Section */}
         <FadeInOnScroll>
-          <section id="work" className="py-12 md:py-16">
+          <section id="work" className="py-10 md:py-12">
             <SectionTitle id="work" icon="👨‍💻">
               Work Experience
             </SectionTitle>
@@ -375,7 +387,10 @@ export default function Home() {
               <WorkExperienceItem title="Service Worker at Rema 1000 (2016 - 2018)">
                 <>
                   <div className="text-base sm:text-lg py-2 leading-7 md:leading-8 text-gray-800">
-                    Similarly to many other Danish teenagers, I spent my high school years working at a local grocery store. Here, I gained experience in customer service, and I learned to participate in creating a healthy work environment.
+                    Similarly to many other Danish teenagers, I spent my high
+                    school years working at a local grocery store. Here, I
+                    gained experience in customer service, and I learned to
+                    participate in creating a healthy work environment.
                   </div>
 
                   <div className="flex justify-center -mt-1">
@@ -391,87 +406,88 @@ export default function Home() {
                 </>
               </WorkExperienceItem>
             </FadeInOnScroll>
-        </section>
+          </section>
         </FadeInOnScroll>
 
         {/* Skills Section */}
         <FadeInOnScroll>
-          <section id="skills" className="py-12 md:py-16">
-          <SectionTitle id="skills" icon="👨‍🏭">
-            Skills
-          </SectionTitle>
+          <section id="skills" className="py-10 md:py-12">
+            <SectionTitle id="skills" icon="👨‍🏭">
+              Skills
+            </SectionTitle>
 
-          <p className="text-base sm:text-lg md:text-md py-4 md:py-6 leading-8 text-gray-800 max-w-4xl">
-            During my studies, I have gained a wide range of technical and soft
-            skills. In addition to the courses, each semester proposed a new
-            challenge in the form of a comprehensive project requiring us to
-            apply and extend our theoretical knowledge in realistic scenarios.
-          </p>
+            <p className="text-base sm:text-lg md:text-md py-4 md:py-6 leading-8 text-gray-800 max-w-4xl">
+              During my studies, I have gained a wide range of technical and
+              soft skills. In addition to the courses, each semester proposed a
+              new challenge in the form of a comprehensive project requiring us
+              to apply and extend our theoretical knowledge in realistic
+              scenarios.
+            </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 pt-4 auto-rows-fr">
-            {skillsData.map((skill, index) => (
-              <FadeInOnScroll key={index}>
-                <SkillCard
-                  icon={skill.icon}
-                  title={skill.title}
-                  description={skill.description}
-                  tools={skill.tools}
-                />
-              </FadeInOnScroll>
-            ))}
-          </div>
-        </section>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 pt-4 auto-rows-fr">
+              {skillsData.map((skill, index) => (
+                <FadeInOnScroll key={index}>
+                  <SkillCard
+                    icon={skill.icon}
+                    title={skill.title}
+                    description={skill.description}
+                    tools={skill.tools}
+                  />
+                </FadeInOnScroll>
+              ))}
+            </div>
+          </section>
         </FadeInOnScroll>
 
         {/* Projects Section */}
         <FadeInOnScroll>
-          <section id="projects" className="py-12 md:py-16">
-          <SectionTitle id="projects" icon="🚀">
-            Team-Based Projects
-          </SectionTitle>
+          <section id="projects" className="py-10 md:py-12">
+            <SectionTitle id="projects" icon="🚀">
+              Team-Based Projects
+            </SectionTitle>
 
-          <div className="space-y-12 md:space-y-16">
-            {projects.map((project, index) => (
-              <FadeInOnScroll key={index}>
-                <div>
-                  <ProjectCard
-                    title={project.title}
-                    description={project.description}
-                    images={project.images}
-                    heightClass={project.heightClass}
-                    widthClass={project.widthClass}
-                  />
-                  {(project.github || project.doc) && (
-                    <ProjectLinks
-                      githubUrl={project.github}
-                      docUrl={project.doc}
-                      docName={project.docName}
+            <div className="space-y-12 md:space-y-16">
+              {projects.map((project, index) => (
+                <FadeInOnScroll key={index}>
+                  <div>
+                    <ProjectCard
+                      title={project.title}
+                      description={project.description}
+                      images={project.images}
+                      heightClass={project.heightClass}
+                      widthClass={project.widthClass}
                     />
-                  )}
-                </div>
-              </FadeInOnScroll>
-            ))}
-          </div>
+                    {(project.github || project.doc) && (
+                      <ProjectLinks
+                        githubUrl={project.github}
+                        docUrl={project.doc}
+                        docName={project.docName}
+                      />
+                    )}
+                  </div>
+                </FadeInOnScroll>
+              ))}
+            </div>
 
-          <div className="text-center pt-16 md:pt-20 pb-10 text-gray-800">
-            Contact:{" "}
-            <a
-              href="mailto:benceisonline@gmail.com"
-              className="text-teal-600 hover:text-teal-700 transition-colors duration-500"
-            >
-              benceisonline@gmail.com
-            </a>
-          </div>
-        </section>
+            <div className="text-center pt-16 md:pt-20 pb-10 text-gray-800">
+              Contact:{" "}
+              <a
+                href="mailto:benceisonline@gmail.com"
+                className="text-teal-600 hover:text-teal-700 transition-colors duration-500"
+              >
+                benceisonline@gmail.com
+              </a>
+            </div>
+          </section>
         </FadeInOnScroll>
-
-        <a
-          href="#top"
-          className="fixed bottom-6 right-6 bg-linear-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md hover:scale-105 drop-shadow-lg transition-transform duration-500 text-sm md:text-base font-semibold"
-        >
-          ↑
-        </a>
       </main>
+
+      <a
+        href="#top"
+        className="fixed bottom-6 right-6 bg-linear-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md hover:scale-105 drop-shadow-lg transition-transform duration-500 text-sm md:text-base font-semibold"
+      >
+        ↑
+      </a>
     </div>
   );
 }

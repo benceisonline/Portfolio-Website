@@ -29,11 +29,7 @@ When adding new components:
 
 ```javascript
 export default function ComponentName({ prop1, prop2 }) {
-  return (
-    <div>
-      {/* Component JSX */}
-    </div>
-  );
+  return <div>{/* Component JSX */}</div>;
 }
 ```
 

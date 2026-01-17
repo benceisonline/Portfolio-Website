@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"  # Can be "daily", "weekly", or "monthly"
+      interval: "weekly" # Can be "daily", "weekly", or "monthly"
     commit-message:
-      prefix: "dependabot-fix"  # You can customize this prefix
+      prefix: "dependabot-fix" # You can customize this prefix
     versioning-strategy: "auto"
