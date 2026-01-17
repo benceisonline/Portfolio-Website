@@ -14,6 +14,7 @@
 
 # production
 /build
+.firebase/
 
 # misc
 .DS_Store
@@ -33,3 +34,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# backups
+*.old
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "clean": "rm -rf .next .firebase && git clean -fdX"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.15",
