@@ -7,7 +7,7 @@ export default function ProjectLinks({ githubUrl, docUrl, docName }) {
     <div className="py-6 md:py-10 mb-8 md:mb-10 flex flex-col items-center sm:flex-row sm:justify-between gap-4 sm:gap-0">
       {githubUrl && (
         <div className="flex items-center text-black font-semibold hover:text-gray-700 transition-colors duration-500">
-          <AiFillGithub size={24} className="md:w-[30px] md:h-[30px]" />
+          <AiFillGithub size={24} className="md:w-7.5 md:h-7.5" />
           <a
             href={githubUrl}
             target="_blank"

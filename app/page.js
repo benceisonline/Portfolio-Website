@@ -27,14 +27,16 @@ import p3 from "../public/P3.png";
 import p3_2 from "../public/P3_2.png";
 import p4 from "../public/P4.png";
 import p4_2 from "../public/P4_2.png";
-import p5 from "../public/p5.png";
-import p5_2 from "../public/p5_2.png";
+import p5 from "../public/P5.png";
+import p5_2 from "../public/P5_2.png";
 import p6 from "../public/P6.png";
 import p6_2 from "../public/P6_2.png";
 import p7 from "../public/P7.png";
 import p7_2 from "../public/P7_2.png";
-import p8 from "../public/p8.png";
-import p8_2 from "../public/p8_2.png";
+import p8 from "../public/P8.png";
+import p8_2 from "../public/P8_2.png";
+import p9 from "../public/P9.png";
+import p9_2 from "../public/P9_2.png";
 
 // Watermarked Images
 import some1 from "../public/some1Watermarked.png";
@@ -120,11 +122,12 @@ export default function Home() {
       icon: explorer,
       title: "Coding & QA",
       description:
-        "Full-stack developer with expertise in Test-Driven Development and QA automation. Proficient in multiple paradigms (imperative C, OOP Java/C++, ML Python) and modern web technologies. Experienced with unit, integration, and end-to-end testing in large-scale projects.",
+        "Full-stack developer with expertise in Test-Driven Development and QA automation. Proficient in multiple paradigms (imperative C, OOP Java/C++, ML Python). Experienced with unit, integration, and end-to-end testing in large-scale projects.",
       tools: [
         "JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart, Flutter, React Native, Tailwind, HTML, CSS",
-        "SQL, Google Cloud Services, Docker, Kubernetes, MongoDB, Firebase, Supabase, NGINX, Grafana k6",
+        "Google Cloud Services, Docker, Kubernetes, NGINX, Grafana k6",
         "Python - Pandas, Keras, PyTorch, Tensorflow",
+        "SQL, MongoDB, Firebase, Supabase",
         "Java - JUnit 5, JavaFX",
         "C++ - Unreal Engine",
         "C - CuTest",
@@ -133,23 +136,23 @@ export default function Home() {
     },
     {
       icon: hash,
-      title: "Agile & Management",
+      title: "Agile & Project Management",
       description:
-        "Experienced with Scrum, Kanban, and Nexus Framework. Skilled at leading and collaborating with teams while prioritizing clear communication and thorough documentation. Proven track record delivering successful projects from conception to completion.",
+        "Experienced with Scrum, Kanban, and Nexus Framework. Skilled at leading and collaborating with teams while prioritizing clear communication and thorough documentation. Proven track record delivering successful projects from conception to completion, including large scale user studies with 200+ participants.",
       tools: [
-        "Jira",
+        "Jira, YouTrack, TestRail",
+        "Prolific, Qualtrics",
+        "Git, Perforce",
         "Scrum & Kanban",
-        "Nexus Framework",
         "Confluence",
-        "GitHub",
-        "Git",
+        "Agile SD",
       ],
     },
     {
       icon: bulb,
       title: "Design & Theory",
       description:
-        "Strong background in software architecture and design patterns. Experienced in translating client requirements into wireframes, mockups, and prototypes. Deep understanding of algorithms, data structures, and system complexity.",
+        "Strong background in software architecture and design patterns. Experienced in translating client requirements into wireframes, mockups, and functional prototypes. Deep understanding of algorithms, data structures, and system complexity.",
       tools: [
         "Balsamiq Wireframes",
         "Visual Paradigm",
@@ -162,18 +165,34 @@ export default function Home() {
       icon: hash,
       title: "Leadership & Communication",
       description:
-        "Teaching Assistant and Project Supervisor with strong mentoring abilities. Excellent at translating complex technical concepts for diverse audiences and coordinating cross-functional teams. Proven experience managing international partnerships across multiple time zones.",
+        "Teaching Assistant and Project Supervisor with strong mentoring abilities. Excellent at translating complex technical concepts for diverse stakeholder and coordinating cross-functional teams. Proven experience managing international partnerships across multiple time zones.",
       tools: [
+        "Cross-cultural Collaboration",
+        "Stakeholder Management",
+        "Technical Fluency",
         "Team Coordination",
         "Mentoring",
-        "Technical Writing",
-        "Stakeholder Management",
-        "Cross-cultural Collaboration",
       ],
     },
   ];
 
   const projects = [
+    {
+      title:
+        "Digital Agency in Online Consent: Seamful Design Research (2025)",
+      description:
+        "Master's research project investigating how 'seamful' design can restore user agency in Consent Management Platforms (CMPs). Addressing the epidemic of 'learned helplessness' and consent fatigue, I developed and evaluated five functional prototypes using a React and Supabase stack. The study employed a mixed-methods approach—combining a participatory design workshop with a controlled user study (N=200) to demonstrate how strategic transparency and traceable consent history can empower users more effectively than traditional 'black-box' automation.",
+      images: [
+        { src: p9, alt: "P9 Image 1" },
+        { src: p9_2, alt: "P9 Image 2" },
+      ],
+      github: "https://github.com/loui981c/user-study-website-1",
+      doc: "/P9_Documentation.pdf",
+      docName: "Digital_Agency_Project_Documentation",
+      heightClass: "h-64 sm:h-72 lg:h-80",
+      widthClass: "max-w-4xl",
+    },
+
     {
       title:
         "SoundLink: Real-Time Location-based Music Sharing Platform (2025)",
@@ -185,7 +204,7 @@ export default function Home() {
       ],
       github: "https://github.com/saraselmn/SoundLink",
       doc: "/P8_Documentation.pdf",
-      docName: "SoundLink_Documentation",
+      docName: "SoundLink_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
     },
     {
@@ -198,7 +217,7 @@ export default function Home() {
       ],
       github: "https://github.com/AAU-madboks-collab",
       doc: "/P7_Documentation.pdf",
-      docName: "Bence_Szabo_P7_Documentation",
+      docName: "Madboks_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
       widthClass: "max-w-4xl",
     },
@@ -212,7 +231,7 @@ export default function Home() {
       ],
       github: "https://github.com/benceisonline/AAU-Project-6-Backend-2024",
       doc: "/P6_Documentation.pdf",
-      docName: "Bence_Szabo_P6_Documentation",
+      docName: "EB_ML_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
       widthClass: "max-w-4xl",
     },
@@ -220,14 +239,14 @@ export default function Home() {
       title:
         "Educado: Educational Platform for a United Nations Project (2023)",
       description:
-        "Erasmus-funded partnership between Aalborg University and University of Brasília. Developed a socially-gamified mobile platform for waste pickers in Brazil that attracted UN Development Programme (UNDP) consideration for funding. Led React Native frontend development and implemented highly automated CI/CD pipeline using Nexus Framework (Scaled Scrum), with full-stack responsibilities across multiple teams and universities.",
+        "Erasmus-funded partnership between Aalborg University and University of Brasília. Developed a socially-gamified mobile platform for waste pickers in Brazil that attracted UN Development Programme (UNDP) consideration for funding. Led React Native frontend development and implemented highly automated CI/CD pipeline using a scaled scrum framework, with full-stack responsibilities across multiple teams and universities.",
       images: [
         { src: p5, alt: "P5 Image 1" },
         { src: p5_2, alt: "P5 Image 2" },
       ],
       github: "https://github.com/ErasmusEgalitarian",
       doc: "/P5_Documentation.pdf",
-      docName: "Bence_Szabo_P5_Documentation",
+      docName: "Educado_UN_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
     },
     {
@@ -240,7 +259,7 @@ export default function Home() {
       ],
       github: "https://github.com/benceisonline/AAU-Project-4-2023",
       doc: "/P4_Documentation.pdf",
-      docName: "Bence_Szabo_P4_Documentation",
+      docName: "Compiler_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
       widthClass: "max-w-4xl",
     },
@@ -254,7 +273,7 @@ export default function Home() {
       ],
       github: "https://github.com/benceisonline/AAU-Project-3-2022",
       doc: "/P3_Documentation.pdf",
-      docName: "Bence_Szabo_P3_Documentation",
+      docName: "Management_System_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
       widthClass: "max-w-4xl",
     },
@@ -268,7 +287,7 @@ export default function Home() {
       ],
       github: "https://github.com/benceisonline/AAU-Project-2-2022",
       doc: "/P2_Documentation.pdf",
-      docName: "Bence_Szabo_P2_Documentation",
+      docName: "Budget_Tracker_Project_Documentation",
       heightClass: "h-60 sm:h-68 lg:h-76",
       widthClass: "max-w-4xl",
     },
@@ -282,7 +301,7 @@ export default function Home() {
       ],
       github: "https://github.com/benceisonline/AAU-Project-1-2021",
       doc: "/P1_Documentation.pdf",
-      docName: "Bence_Szabo_P1_Documentation",
+      docName: "Recruitement_Project_Documentation",
       heightClass: "h-80 sm:h-[26rem] lg:h-[30rem]",
     },
   ];
@@ -301,11 +320,11 @@ export default function Home() {
             description={[
               {
                 period: "2024 - 2026",
-                text: "I am enrolled in the MSc in Software Engineering program at Aalborg University Copenhagen, an education with a focus on developing software that is thoroughly prepared, tested and ready for use.",
+                text: "I am currently enrolled in the MSc in Software Engineering with a specialization in Human-Computer Interaction at Aalborg University Copenhagen. My studies focus on engineering robust, production-ready software through thorough testing and user-centric design.",
               },
               {
                 period: "2021 - 2024",
-                text: "I completed my BSc in Civil Engineering Software at Aalborg University Copenhagen, an education with a focus on the problem-based learning model and real-world problem-solving.",
+                text: "I completed my BSc in Civil Engineering (Software) at Aalborg University Copenhagen, specializing in Machine Learning. The program was built on a Problem-Based Learning (PBL) model, emphasizing collaborative solutions to complex, real-world engineering challenges.",
               },
             ]}
             socials={[
@@ -346,7 +365,7 @@ export default function Home() {
               >
                 {[
                   "I am currently a QA Student Worker at Playdead, the internationally renowned video game studio known for its atmospheric and artistic games, Limbo and Inside.",
-                  "My role focuses on designing and implementing functional automated tests, as well as planning and executing both technical and user testing. I document bugs and issues thoroughly, while continuously expanding the QA team's capabilities with new tools and software solutions. Working in a fast-paced, collaborative environment, I rely on clear communication and a strong understanding of each team member's domain expertise. My work primarily involves Perforce, Unreal Engine, and C++ development.",
+                  "My role focuses on designing and implementing functional automated test plans, as well as planning and executing both technical and user testing. I document bugs and issues thoroughly, while continuously expanding the QA team's capabilities with new tools and software solutions (e.g. real-time data analysis). Working in a fast-paced, collaborative environment, I rely on clear communication and a strong understanding of each team member's domain expertise. My work primarily involves Perforce, Unreal Engine, and C++ development.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
