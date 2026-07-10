@@ -56,7 +56,7 @@ export const metadata = {
   metadataBase: new URL("https://bence-is-online.web.app"),
   title: "Bence Szabo | Software Developer, QA Engineer",
   description:
-    "Bence Szabo is a software engineer specializing in React, Next.js, Node.js, QA automation, and cloud-native delivery. Explore projects in web development, AI, and scalable systems.",
+    "Bence Szabo is a software engineer focused on React, Next.js, Node.js, QA automation, and cloud-based delivery. The portfolio highlights work in web development, testing, AI, and scalable systems.",
   keywords: [
     "Bence Szabo",
     "software engineer",
@@ -92,7 +92,7 @@ export const metadata = {
   openGraph: {
     title: "Bence Szabo | Software Developer, QA Engineer",
     description:
-      "Explore Bence Szabo's portfolio of web applications, QA automation work, and software projects built with React, Next.js, Node.js, GCP, and DevOps.",
+      "Bence Szabo is a software engineer focused on React, Next.js, Node.js, QA automation, and cloud-based delivery. The portfolio highlights work in web development, testing, AI, and scalable systems.",
     url: "https://bence-is-online.web.app",
     type: "website",
     siteName: "Bence Szabo | Portfolio",
@@ -111,7 +111,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Bence Szabo | Software Developer, QA Engineer",
     description:
-      "Explore Bence Szabo's portfolio of web development, QA automation, AI, and cloud engineering projects.",
+      "Bence Szabo is a software engineer focused on React, Next.js, Node.js, QA automation, and cloud-based delivery. The portfolio highlights work in web development, testing, AI, and scalable systems.",
     creator: "@benceszabo",
   },
   alternates: {
@@ -183,7 +183,7 @@ export default function Home() {
     {
       title: "Master's Project: AI-Driven Browser-Level Privacy Protection Tool (2026)",
       description:
-        "Master's thesis research paper that documenting the development and testing of a broswer extension turns dense cookie popups into readable, actionable privacy controls. It combines context-aware LLM-based explanations with a transparent recommendation algorithm so users can query more directly, understand tracking choices, and act with greater agency.",
+        "Master’s thesis documenting the development and evaluation of a browser extension that turns dense cookie popups into clear, actionable privacy controls. The system combines context-aware LLM explanations with a transparent recommendation model to help users understand tracking choices and act with greater agency.",
       images: [
         { src: p10, alt: "P10 Image 1" },
         { src: p10_2, alt: "P10 Image 2" },
@@ -198,7 +198,7 @@ export default function Home() {
       title:
         "Digital Agency in Online Consent: Seamful Design Research (2025)",
       description:
-        "Master's research paper investigating how 'seamful' design can restore user agency in online consent management. Addressing the epidemic of 'learned helplessness' and consent fatigue, five functional prototypes were developed and evaluated using a React and Supabase stack. The study employed a mixed-methods approach—combining a participatory design workshop with a controlled user study (N=200) to demonstrate how strategic transparency and traceable consent history can empower users more effectively than traditional black-box automation.",
+        "Master’s research project examining how seamful design can restore user agency in online consent management. Five prototypes were developed and evaluated through a participatory design workshop and a controlled user study with 200 participants.",
       images: [
         { src: p9, alt: "P9 Image 1" },
         { src: p9_2, alt: "P9 Image 2" },
@@ -214,7 +214,7 @@ export default function Home() {
       title:
         "SoundLink: Real-Time Location-Based Music Sharing Platform (2025)",
       description:
-        "Master's research paper exploring community-driven social interaction through music. Key challenges: real-time Spotify integration, scalable geolocation data aggregation, anonymous identity handling, and seamless performance under concurrent load. Built using a microservice architecture with Flutter frontend and Fastify backend, users create time-limited music hotspots to connect with others based on shared taste, fostering spontaneous community engagement while maintaining user privacy.",
+        "Master’s research project exploring community-driven interaction through music. The platform integrates Spotify, geolocation, and anonymous identity handling in a microservice architecture built with Flutter and Fastify, allowing users to create time-limited music hotspots.",
       images: [
         { src: p8, alt: "P8 Image 1" },
         { src: p8_2, alt: "P8 Image 2" },
@@ -227,7 +227,7 @@ export default function Home() {
     {
       title: "Madboks: Scalable Booking & Event Platform (2025)",
       description:
-        "First master's project delivering a booking and event management platform for a non-profit. Implemented Cloudflare WAF rules, reliable email workflows, and secure authentication/session handling alongside a fully responsive frontend. Microservice-based architecture keeps booking and event flows resilient under heavy usage, designed collaboratively with admins and end users.",
+        "First master’s project delivering a booking and event management platform for a non-profit. The system includes secure authentication, email workflows, Cloudflare WAF rules, and a responsive frontend built on a resilient microservice architecture.",
       images: [
         { src: p7, alt: "P7 Image 1" },
         { src: p7_2, alt: "P7 Image 2" },
@@ -241,7 +241,7 @@ export default function Home() {
     {
       title: "Bachelor Project: ML Recommender System for Ekstra Bladet (2024)",
       description:
-        "Paper decoumenting the collaboration and build process of a machine-learning recommender system for Denmark's leading tabloid newspaper to boost mobile app user engagement. Stack includes GitHub CI/CD, FastAPI for model serving, and a modular architecture enabling easy model swapping. The custom LightFM model achieved a 0.90 AUC score, delivering 90% accurate recommendations.",
+        "Bachelor project for Ekstra Bladet focused on a machine-learning recommender system to improve mobile app engagement. The stack used GitHub CI/CD, FastAPI model serving, and a modular architecture; the custom LightFM model achieved an AUC of 0.90.",
       images: [
         { src: p6, alt: "P6 Image 1" },
         { src: p6_2, alt: "P6 Image 2" },
@@ -256,7 +256,7 @@ export default function Home() {
       title:
         "Educado: Educational Platform for a United Nations Project (2023)",
       description:
-        "Erasmus-funded partnership between Aalborg University and University of Brasília. Developed a socially-gamified mobile platform for waste pickers in Brazil that attracted UN Development Programme (UNDP) consideration for funding. Led React Native frontend development and implemented highly automated CI/CD pipeline using a scaled scrum framework, with full-stack responsibilities across multiple teams and universities.",
+        "Erasmus-funded partnership between Aalborg University and the University of Brasília. The project delivered a socially gamified mobile platform for waste pickers in Brazil and attracted consideration from the UN Development Programme. I led React Native frontend development and supported CI/CD automation across teams and universities.",
       images: [
         { src: p5, alt: "P5 Image 1" },
         { src: p5_2, alt: "P5 Image 2" },
@@ -269,7 +269,7 @@ export default function Home() {
     {
       title: "Custom Compiler for 8-bit Hardware (2023)",
       description:
-        "Developed a compiler that translates a modern programming language to Assembly 6502 (used in SNES and Furby). Full-featured language supporting variables, procedures, loops, and conditionals. Implemented all compiler phases: lexical analysis, syntax analysis, semantic analysis, and code generation. Written in Java.",
+        "Developed a compiler that translates a modern programming language into Assembly 6502, the instruction set used by systems such as the SNES and Furby. The language supports variables, procedures, loops, and conditionals, and the compiler implements lexical, syntactic, semantic, and code-generation phases in Java.",
       images: [
         { src: p4, alt: "P4 Image 1" },
         { src: p4_2, alt: "P4 Image 2" },
@@ -283,7 +283,7 @@ export default function Home() {
     {
       title: "Café Management System for The Living Room (2022)",
       description:
-        "Desktop application for Copenhagen café 'The Living Room' that manages tasks, employees, schedules, and internal communication with real-time data sync. Focused on intuitive UI/UX and well-structured codebase, built with Java and MongoDB to provide a seamless experience for both employees and managers.",
+        "Desktop application for Copenhagen café 'The Living Room' that manages tasks, employees, schedules, and internal communication with real-time data sync. The project focused on a clear UI/UX and a structured Java and MongoDB codebase.",
       images: [
         { src: p3, alt: "P3 Image 1" },
         { src: p3_2, alt: "P3 Image 2" },
@@ -297,7 +297,7 @@ export default function Home() {
     {
       title: "Budget & Expense Tracker (2022)",
       description:
-        "Full-stack web app for students to track expenses and manage budgets with goal-setting, planning tools, and expense tracking with real-time updates. Built using MVC architecture with Node.js/Express backend and MongoDB Atlas, designed for scalability and clean separation of concerns.",
+        "Full-stack web app for students to track expenses, manage budgets, and set goals with real-time updates. Built with an MVC architecture using Node.js, Express, and MongoDB Atlas.",
       images: [
         { src: p2, alt: "P2 Image 1" },
         { src: p2_2, alt: "P2 Image 2" },
@@ -311,7 +311,7 @@ export default function Home() {
     {
       title: "Recruitment Process Automation (2021)",
       description:
-        "First university project in collaboration with Danish companies (Novo Nordisk, DSB, Jyske Bank) where I gathered real-world HR requirements and delivered a proof-of-concept solution. Command-line application written in C that analyzes job applications, ranks candidates using keyword matching, and extracts relevant information automatically.",
+        "First university project, developed with Danish companies including Novo Nordisk, DSB, and Jyske Bank. The command-line application analyzes job applications, ranks candidates through keyword matching, and extracts relevant information automatically.",
       images: [
         { src: p1, alt: "P1 Image 1" },
         { src: p1_2, alt: "P1 Image 2" },
@@ -333,15 +333,15 @@ export default function Home() {
           <HeroSection
             image={profilePic}
             name="Bence"
-            subtitle="I am a Software Engineer"
+            subtitle="Software Engineer"
             description={[
               {
                 period: "2024 - 2026",
-                text: "I completed the MSc in Software Engineering with a specialization in Human-Computer Interaction at Aalborg University Copenhagen. I graduated with an average grade of 11.7, which corresponds to an A in the US grading system. My studies focused on engineering robust, production-ready software through thorough testing and user-centric design.",
+                text: "I earned an MSc in Software Engineering with a specialization in Human-Computer Interaction at Aalborg University Copenhagen. The program emphasized production-ready software, thorough testing, and user-centered design. I graduated with an 11.7 GPA, which corresponds to an A in US grading system.",
               },
               {
                 period: "2021 - 2024",
-                text: "I completed my BSc in Civil Engineering (Software) at Aalborg University Copenhagen, specializing in Machine Learning. The program was built on a Problem-Based Learning (PBL) model, emphasizing collaborative solutions to complex, real-world engineering challenges.",
+                text: "I earned a BSc in Civil Engineering (Software) at Aalborg University Copenhagen, with a specialization in Machine Learning. The program followed a problem-based learning model centered on collaborative problem solving.",
               },
             ]}
             socials={[
@@ -375,8 +375,8 @@ export default function Home() {
             <FadeInOnScroll>
               <WorkExperienceItem title="QA Engineer at Playdead (2026 - )">
                 {[
-                  "Following my student position, I continued at Playdead as a full-time employee.",
-                  "My work encompasses tooling for QA, development of debug tools, playtest facilitation and planning, documentation writing, and cross-team collaboration to help ensure that we develop a game of a high quality in an efficient way.",
+                  "I continued at Playdead as a full-time QA Engineer after my student position.",
+                  "My work covers QA tooling, debug tool development, playtest facilitation and planning, documentation, and cross-team collaboration to support efficient delivery of high-quality games.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
@@ -390,8 +390,8 @@ export default function Home() {
                 ]}
               >
                 {[
-                  "During my studies, I worked as functional tester at Playdead, the internationally renowned video game studio known for its atmospheric and artistic games, Limbo and Inside.",
-                  "My role focused on designing and implementing functional automated test plans, as well as planning and executing both functional and user testing. I documented bugs and issues, while continuously expanding the QA team's capabilities with new tools and software solutions (e.g. real-time data analysis). Working in a fast-paced, collaborative environment, I relied on clear communication and a strong understanding of each team member's domain expertise. My work primarily involved Perforce, Unreal Engine, and C++ development.",
+                  "During my studies, I worked as a functional tester at Playdead, the studio behind Limbo and Inside.",
+                  "I designed and implemented functional and automated test plans, supported functional and user testing, documented bugs, and extended the QA team's tooling with real-time data analysis and other software solutions. My work primarily involved Perforce, Unreal Engine, and C++.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
@@ -405,8 +405,8 @@ export default function Home() {
                 ]}
               >
                 {[
-                  "I assisted in the Educado Project under the UN's Egalitarian Initiative (co-funded by the European Union), coordinating effective communication and software development efforts between Aalborg University, Saxion University, University of Minho, and University of Brasília.",
-                  "Focusing on the teaching assistant side, I provided day-to-day technical support and Agile guidance to assist AAU students in their software development efforts. During this time, I worked with Google Cloud services, Docker microservices React web development, database management, and CI/CD optimisation and automation.",
+                  "I coordinated software development and communication between Aalborg University, Saxion University, the University of Minho, and the University of Brasília in the Educado project under the UN Egalitarian Initiative.",
+                  "As a teaching assistant, I provided daily technical support and Agile guidance to AAU students. I worked with Google Cloud services, Docker microservices, React web development, database management, and CI/CD automation.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
@@ -422,8 +422,8 @@ export default function Home() {
                 widthClass="max-w-4xl"
               >
                 {[
-                  "In collaboration with some friends, I spent two years running social media accounts (Facebook and Instagram) for an independent online entertainment page. During my time, I gained experience in producing engagement analytics and conducting small-scale advertisement campaigns.",
-                  "The accounts featured humorous reflections on popular culture, consisting of a mix of original and curated content. Following popular culture, the account handles were changed numerous times but still managed to garner a large following amongst younger users. Shortly after surpassing 100.000 Followers and 10M+ monthly engagements in 2020, the site was sold and rebranded.",
+                  "With a group of friends, I managed Facebook and Instagram accounts for an independent online entertainment page for two years. During that time, I produced engagement analytics and ran small-scale advertising campaigns.",
+                  "The page focused on humorous takes on popular culture and combined original and curated content. After reaching 100,000 followers and more than 10M monthly engagements in 2020, it was sold and rebranded.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
@@ -432,10 +432,10 @@ export default function Home() {
               <WorkExperienceItem title="Service Worker at Rema 1000 (2016 - 2018)">
                 <>
                   <div className="text-base sm:text-lg py-2 leading-7 md:leading-8 text-gray-800">
-                    Similarly to many other Danish teenagers, I spent my high
-                    school years working at a local grocery store. Here, I
-                    gained experience in customer service, and I learned to
-                    participate in creating a healthy work environment.
+                    Like many Danish teenagers, I worked at a local grocery
+                    store during high school. The role gave me experience in
+                    customer service and in contributing to a healthy work
+                    environment.
                   </div>
 
                   <div className="flex justify-center -mt-1">
@@ -462,11 +462,10 @@ export default function Home() {
             </SectionTitle>
 
             <p className="text-base sm:text-lg md:text-md py-4 md:py-6 leading-8 text-gray-800 max-w-4xl">
-              During my studies, I have gained a wide range of technical and
-              soft skills. In addition to the courses, each semester proposed a
-              new challenge in the form of a comprehensive project requiring us
-              to apply and extend our theoretical knowledge in realistic
-              scenarios.
+              During my studies, I built technical and soft skills through
+              semester projects that translated theory into practical
+              solutions. Each project added experience in design,
+              implementation, testing, and teamwork.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 pt-4 auto-rows-fr">
