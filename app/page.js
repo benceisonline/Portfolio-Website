@@ -37,6 +37,8 @@ import p8 from "../public/P8.png";
 import p8_2 from "../public/P8_2.png";
 import p9 from "../public/P9.png";
 import p9_2 from "../public/P9_2.png";
+import p10 from "../public/P10.png";
+import p10_2 from "../public/P10_2.png";
 
 // Watermarked Images
 import some1 from "../public/some1Watermarked.png";
@@ -51,9 +53,10 @@ import snoopy from "../public/snoopy.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Bence Szabo | Full-Stack Engineer & QA Automation Specialist",
+  metadataBase: new URL("https://bence-is-online.web.app"),
+  title: "Bence Szabo | Software Developer, QA Engineer",
   description:
-    "Full-stack software engineer specializing in React, Next.js, and Node.js with expertise in QA automation, cloud infrastructure (GCP, Firebase), and DevOps. View projects in web development, AI, and scalable systems.",
+    "Bence Szabo is a software engineer specializing in React, Next.js, Node.js, QA automation, and cloud-native delivery. Explore projects in web development, AI, and scalable systems.",
   keywords: [
     "Bence Szabo",
     "software engineer",
@@ -87,9 +90,9 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Bence Szabo | Full-Stack Engineer & QA Specialist",
+    title: "Bence Szabo | Software Developer, QA Engineer",
     description:
-      "Explore innovative web applications, machine learning projects, and enterprise QA solutions. Experienced with React, Next.js, Node.js, GCP, and DevOps.",
+      "Explore Bence Szabo's portfolio of web applications, QA automation work, and software projects built with React, Next.js, Node.js, GCP, and DevOps.",
     url: "https://bence-is-online.web.app",
     type: "website",
     siteName: "Bence Szabo | Portfolio",
@@ -106,9 +109,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bence Szabo | Full-Stack Engineer & QA Specialist",
+    title: "Bence Szabo | Software Developer, QA Engineer",
     description:
-      "Check out my latest projects in web development, AI, and DevOps",
+      "Explore Bence Szabo's portfolio of web development, QA automation, AI, and cloud engineering projects.",
     creator: "@benceszabo",
   },
   alternates: {
@@ -124,7 +127,7 @@ export default function Home() {
       description:
         "Full-stack developer with expertise in Test-Driven Development and QA automation. Proficient in multiple paradigms (imperative C, OOP Java/C++, ML Python). Experienced with unit, integration, and end-to-end testing in large-scale projects.",
       tools: [
-        "JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart, Flutter, React Native, Tailwind, HTML, CSS",
+        "JavaScript/TypeScript - Node.js, Next.js, React, Express, Dart, Flutter, React Native",
         "Google Cloud Services, Docker, Kubernetes, NGINX, Grafana k6",
         "Python - Pandas, Keras, PyTorch, Tensorflow",
         "SQL, MongoDB, Firebase, Supabase",
@@ -140,9 +143,9 @@ export default function Home() {
       description:
         "Experienced with Scrum, Kanban, and Nexus Framework. Skilled at leading and collaborating with teams while prioritizing clear communication and thorough documentation. Proven track record delivering successful projects from conception to completion, including large scale user studies with 200+ participants.",
       tools: [
-        "Jira, YouTrack, TestRail",
+        "Jira, YouTrack, TestRail, Sentry",
+        "Git, Perforce, Jenkins",
         "Prolific, Qualtrics",
-        "Git, Perforce",
         "Scrum & Kanban",
         "Confluence",
         "Agile SD",
@@ -152,7 +155,7 @@ export default function Home() {
       icon: bulb,
       title: "Design & Theory",
       description:
-        "Strong background in software architecture and design patterns. Experienced in translating client requirements into wireframes, mockups, and functional prototypes. Deep understanding of algorithms, data structures, and system complexity.",
+        "Strong background in software architecture and design patterns. Experienced in translating client requirements into wireframes, mock-ups, and functional prototypes. Deep understanding of algorithms, data structures, and system complexity.",
       tools: [
         "Balsamiq Wireframes",
         "Visual Paradigm",
@@ -178,10 +181,24 @@ export default function Home() {
 
   const projects = [
     {
+      title: "Master's Project: AI-Driven Browser-Level Privacy Protection Tool (2026)",
+      description:
+        "Master's thesis research paper that documenting the development and testing of a broswer extension turns dense cookie popups into readable, actionable privacy controls. It combines context-aware LLM-based explanations with a transparent recommendation algorithm so users can query more directly, understand tracking choices, and act with greater agency.",
+      images: [
+        { src: p10, alt: "P10 Image 1" },
+        { src: p10_2, alt: "P10 Image 2" },
+      ],
+      github: "https://github.com/benceisonline/Cookie-Slayer-Masters-Thesis",
+      doc: "/P10_Documentation.pdf",
+      docName: "Cookie_Slayer_Project_Documentation",
+      heightClass: "h-64 sm:h-72 lg:h-80",
+      widthClass: "max-w-4xl",
+    },
+    {
       title:
         "Digital Agency in Online Consent: Seamful Design Research (2025)",
       description:
-        "Master's research project investigating how 'seamful' design can restore user agency in Consent Management Platforms (CMPs). Addressing the epidemic of 'learned helplessness' and consent fatigue, I developed and evaluated five functional prototypes using a React and Supabase stack. The study employed a mixed-methods approach—combining a participatory design workshop with a controlled user study (N=200) to demonstrate how strategic transparency and traceable consent history can empower users more effectively than traditional 'black-box' automation.",
+        "Master's research paper investigating how 'seamful' design can restore user agency in online consent management. Addressing the epidemic of 'learned helplessness' and consent fatigue, five functional prototypes were developed and evaluated using a React and Supabase stack. The study employed a mixed-methods approach—combining a participatory design workshop with a controlled user study (N=200) to demonstrate how strategic transparency and traceable consent history can empower users more effectively than traditional black-box automation.",
       images: [
         { src: p9, alt: "P9 Image 1" },
         { src: p9_2, alt: "P9 Image 2" },
@@ -195,9 +212,9 @@ export default function Home() {
 
     {
       title:
-        "SoundLink: Real-Time Location-based Music Sharing Platform (2025)",
+        "SoundLink: Real-Time Location-Based Music Sharing Platform (2025)",
       description:
-        "Master's thesis project exploring community-driven social interaction through music. Key challenges: real-time Spotify integration, scalable geolocation data aggregation, anonymous identity handling, and seamless performance under concurrent load. Built using a microservice architecture with Flutter frontend and Fastify backend, users create time-limited music hotspots to connect with others based on shared taste, fostering spontaneous community engagement while maintaining user privacy.",
+        "Master's research paper exploring community-driven social interaction through music. Key challenges: real-time Spotify integration, scalable geolocation data aggregation, anonymous identity handling, and seamless performance under concurrent load. Built using a microservice architecture with Flutter frontend and Fastify backend, users create time-limited music hotspots to connect with others based on shared taste, fostering spontaneous community engagement while maintaining user privacy.",
       images: [
         { src: p8, alt: "P8 Image 1" },
         { src: p8_2, alt: "P8 Image 2" },
@@ -224,14 +241,14 @@ export default function Home() {
     {
       title: "Bachelor Project: ML Recommender System for Ekstra Bladet (2024)",
       description:
-        "Built a machine-learning recommender system for Denmark's leading tabloid newspaper to boost mobile app user engagement. Stack includes GitHub CI/CD, FastAPI for model serving, and a modular architecture enabling easy model swapping. The LightFM model achieved a 0.90 AUC score, delivering 90% accurate recommendations.",
+        "Paper decoumenting the collaboration and build process of a machine-learning recommender system for Denmark's leading tabloid newspaper to boost mobile app user engagement. Stack includes GitHub CI/CD, FastAPI for model serving, and a modular architecture enabling easy model swapping. The custom LightFM model achieved a 0.90 AUC score, delivering 90% accurate recommendations.",
       images: [
         { src: p6, alt: "P6 Image 1" },
         { src: p6_2, alt: "P6 Image 2" },
       ],
       github: "https://github.com/benceisonline/AAU-Project-6-Backend-2024",
       doc: "/P6_Documentation.pdf",
-      docName: "EB_ML_Project_Documentation",
+      docName: "Ekstra_Bladet_Project_Documentation",
       heightClass: "h-64 sm:h-72 lg:h-80",
       widthClass: "max-w-4xl",
     },
@@ -316,11 +333,11 @@ export default function Home() {
           <HeroSection
             image={profilePic}
             name="Bence"
-            subtitle="I am a Software Engineering student"
+            subtitle="I am a Software Engineer"
             description={[
               {
                 period: "2024 - 2026",
-                text: "I am currently enrolled in the MSc in Software Engineering with a specialization in Human-Computer Interaction at Aalborg University Copenhagen. My studies focus on engineering robust, production-ready software through thorough testing and user-centric design.",
+                text: "I completed the MSc in Software Engineering with a specialization in Human-Computer Interaction at Aalborg University Copenhagen. I graduated with an average grade of 11.7, which corresponds to an A in the US grading system. My studies focused on engineering robust, production-ready software through thorough testing and user-centric design.",
               },
               {
                 period: "2021 - 2024",
@@ -356,16 +373,25 @@ export default function Home() {
             </SectionTitle>
 
             <FadeInOnScroll>
+              <WorkExperienceItem title="QA Engineer at Playdead (2026 - )">
+                {[
+                  "Following my student position, I continued at Playdead as a full-time employee.",
+                  "My work encompasses tooling for QA, development of debug tools, playtest facilitation and planning, documentation writing, and cross-team collaboration to help ensure that we develop a game of a high quality in an efficient way.",
+                ]}
+              </WorkExperienceItem>
+            </FadeInOnScroll>
+
+            <FadeInOnScroll>
               <WorkExperienceItem
-                title="Quality Assurance Student Worker at Playdead (2024 – )"
+                title="Quality Assurance Student Worker at Playdead (2024 – 2026)"
                 images={[
                   { src: inside, alt: "Playdead Image 1" },
                   { src: limbo, alt: "Playdead Image 2" },
                 ]}
               >
                 {[
-                  "I am currently a QA Student Worker at Playdead, the internationally renowned video game studio known for its atmospheric and artistic games, Limbo and Inside.",
-                  "My role focuses on designing and implementing functional automated test plans, as well as planning and executing both technical and user testing. I document bugs and issues thoroughly, while continuously expanding the QA team's capabilities with new tools and software solutions (e.g. real-time data analysis). Working in a fast-paced, collaborative environment, I rely on clear communication and a strong understanding of each team member's domain expertise. My work primarily involves Perforce, Unreal Engine, and C++ development.",
+                  "During my studies, I worked as functional tester at Playdead, the internationally renowned video game studio known for its atmospheric and artistic games, Limbo and Inside.",
+                  "My role focused on designing and implementing functional automated test plans, as well as planning and executing both functional and user testing. I documented bugs and issues, while continuously expanding the QA team's capabilities with new tools and software solutions (e.g. real-time data analysis). Working in a fast-paced, collaborative environment, I relied on clear communication and a strong understanding of each team member's domain expertise. My work primarily involved Perforce, Unreal Engine, and C++ development.",
                 ]}
               </WorkExperienceItem>
             </FadeInOnScroll>
